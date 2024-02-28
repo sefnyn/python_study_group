@@ -58,7 +58,7 @@ Edit new file and push to git repo on GitHub:
   git commit -m "Describe your changes here"
   git push
     <Enter GitHub username>
-    <Enter personal access token>
+    <Enter personal access token>  [This is your password]
 
 
 
