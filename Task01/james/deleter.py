@@ -1,15 +1,16 @@
 import os
 import tkinter as tk
-from tkinter import filedialog
+from tkinter.filedialog import askdirectory
 
 root = tk.Tk()
 root.withdraw()
 
-dir_path = filedialog.askopenfilename()
+dir_path = askdirectory()
 
 for root, dirs, files in os.walk(dir_path):
-    os.chdir(root)
     for file in files:
         if file == '.DS_Store':
             print(root, file)
-            os.remove(file)
+            flag = input("Delete?")
+            if flag == "Y":
+                os.remove(file)
