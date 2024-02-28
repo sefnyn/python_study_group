@@ -1,6 +1,6 @@
 
 import os
-dir_path = r'/home/ns/psg/files'
+dir_path = r'/home/ns/gitrepo/python_study_group/Task01/nick/files'
 os.chdir(dir_path)
 
 def remove_unwanted_files(unwanted_file):

@@ -1,0 +1,145 @@
+1912_RVR_10ul_mill_Ace.raw	Rwp:	      11.94
+	chisq:	       3.63
+     Form I	       43.2		+/-	        1.7
+    Form II	       56.8		+/-	        1.7
+1911_RVR_20ul_mill_Ace.raw	Rwp:	      12.09
+	chisq:	       3.50
+     Form I	       92.8		+/-	        0.9
+    Form II	        7.2		+/-	        0.9
+1909_RVR_30ul_mill_Ace.raw	Rwp:	      10.95
+	chisq:	       3.54
+     Form I	       59.5		+/-	        0.5
+    Form II	       40.5		+/-	        0.5
+1908_RVR_40ul_mill_Ace.raw	Rwp:	       9.28
+	chisq:	       2.56
+     Form I	       22.2		+/-	        0.5
+    Form II	       77.8		+/-	        0.5
+1964_RVR_50ul_mill_Ace_051120.raw	Rwp:	      10.96
+	chisq:	       3.11
+     Form I	        0.0		+/-	        0.7
+    Form II	      100.0		+/-	        0.7
+1912_RVR_10ul_mill_Ace.raw
+	Rwp:	       4.61
+	chisq:	       1.40
+     Form I	       48.8		+/-	        7.9
+    Form II	       51.2		+/-	        7.9
+1911_RVR_20ul_mill_Ace.raw
+	Rwp:	      12.08
+	chisq:	       3.50
+     Form I	       89.8		+/-	        1.3
+    Form II	       10.2		+/-	        1.3
+1909_RVR_30ul_mill_Ace.raw
+	Rwp:	      10.91
+	chisq:	       3.53
+     Form I	       59.5		+/-	        0.4
+    Form II	       40.5		+/-	        0.4
+1908_RVR_40ul_mill_Ace.raw
+	Rwp:	       9.13
+	chisq:	       2.52
+     Form I	       22.1		+/-	        0.5
+    Form II	       77.9		+/-	        0.5
+1964_RVR_50ul_mill_Ace_051120.raw
+	Rwp:	      11.03
+	chisq:	       3.13
+     Form I	        0.0		+/-	        1.1
+    Form II	      100.0		+/-	        1.1
+1912_RVR_10ul_mill_Ace.raw
+	Rwp:	       7.16
+	chisq:	       2.18
+     Form I	       37.8		+/-	        3.2
+    Form II	       62.2		+/-	        3.2
+1911_RVR_20ul_mill_Ace.raw
+	Rwp:	      12.08
+	chisq:	       3.50
+     Form I	       90.5		+/-	        1.2
+    Form II	        9.5		+/-	        1.2
+1909_RVR_30ul_mill_Ace.raw
+	Rwp:	      10.91
+	chisq:	       3.53
+     Form I	       59.5		+/-	        0.5
+    Form II	       40.5		+/-	        0.5
+1908_RVR_40ul_mill_Ace.raw
+	Rwp:	       9.13
+	chisq:	       2.52
+     Form I	       22.1		+/-	        0.6
+    Form II	       77.9		+/-	        0.6
+1964_RVR_50ul_mill_Ace_051120.raw
+	Rwp:	      11.03
+	chisq:	       3.13
+     Form I	        0.0		+/-	        1.1
+    Form II	      100.0		+/-	        1.1
+1912_RVR_10ul_mill_Ace.raw
+	Rwp:	       7.15
+	chisq:	       2.18
+     Form I	       40.3		+/-	        3.6
+    Form II	       59.7		+/-	        3.6
+1911_RVR_20ul_mill_Ace.raw
+	Rwp:	      11.68
+	chisq:	       3.38
+     Form I	       95.1		+/-	        0.9
+    Form II	        4.9		+/-	        0.9
+1909_RVR_30ul_mill_Ace.raw
+	Rwp:	      10.76
+	chisq:	       3.48
+     Form I	       61.2		+/-	        0.5
+    Form II	       38.8		+/-	        0.5
+1908_RVR_40ul_mill_Ace.raw
+	Rwp:	       9.03
+	chisq:	       2.50
+     Form I	       23.5		+/-	        0.7
+    Form II	       76.5		+/-	        0.7
+1964_RVR_50ul_mill_Ace_051120.raw
+	Rwp:	      11.04
+	chisq:	       3.13
+     Form I	        0.0		+/-	        0.1
+    Form II	      100.0		+/-	        0.1
+1912_RVR_10ul_mill_Ace.raw
+	Rwp:	       7.13
+	chisq:	       2.17
+     Form I	       39.4		+/-	        3.7
+    Form II	       60.6		+/-	        3.7
+1911_RVR_20ul_mill_Ace.raw
+	Rwp:	      11.68
+	chisq:	       3.38
+     Form I	       95.1		+/-	        0.9
+    Form II	        4.9		+/-	        0.9
+1909_RVR_30ul_mill_Ace.raw
+	Rwp:	      10.75
+	chisq:	       3.48
+     Form I	       61.1		+/-	        0.5
+    Form II	       38.9		+/-	        0.5
+1908_RVR_40ul_mill_Ace.raw
+	Rwp:	       9.03
+	chisq:	       2.50
+     Form I	       23.5		+/-	        0.7
+    Form II	       76.5		+/-	        0.7
+1964_RVR_50ul_mill_Ace_051120.raw
+	Rwp:	      11.03
+	chisq:	       3.13
+     Form I	        0.0		+/-	        1.6
+    Form II	      100.0		+/-	        1.6
+1912_RVR_10ul_mill_Ace.raw
+	Rwp:	       7.13
+	chisq:	       2.17
+     Form I	       39.4		+/-	        3.8
+    Form II	       60.6		+/-	        3.8
+1911_RVR_20ul_mill_Ace.raw
+	Rwp:	      11.68
+	chisq:	       3.38
+     Form I	       95.1		+/-	        0.9
+    Form II	        4.9		+/-	        0.9
+1909_RVR_30ul_mill_Ace.raw
+	Rwp:	      10.75
+	chisq:	       3.48
+     Form I	       61.1		+/-	        0.5
+    Form II	       38.9		+/-	        0.5
+1908_RVR_40ul_mill_Ace.raw
+	Rwp:	       9.03
+	chisq:	       2.50
+     Form I	       23.5		+/-	        0.7
+    Form II	       76.5		+/-	        0.7
+1964_RVR_50ul_mill_Ace_051120.raw
+	Rwp:	      11.03
+	chisq:	       3.13
+     Form I	        0.0		+/-	        0.8
+    Form II	      100.0		+/-	        0.8

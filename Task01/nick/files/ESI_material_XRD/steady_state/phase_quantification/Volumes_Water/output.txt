@@ -1,0 +1,108 @@
+2014_RVR_10ul_Water.raw	Rwp:	       9.37
+	chisq:	       3.14
+     Form I	       96.6		+/-	        0.9
+    Form II	        3.4		+/-	        0.9
+1802_RVR_mill_water_1.0.raw	Rwp:	      10.57
+	chisq:	       3.15
+     Form I	       96.6		+/-	        0.6
+    Form II	        3.4		+/-	        0.6
+2014_RVR_10ul_Water.raw
+	Rwp:	      24.49
+	chisq:	       8.21
+     Form I	       46.2		+/-	        3.1
+    Form II	       53.8		+/-	        3.1
+1802_RVR_mill_water_1.0.raw
+	Rwp:	      25.44
+	chisq:	       7.57
+     Form I	       59.4		+/-	        2.8
+    Form II	       40.6		+/-	        2.8
+2014_RVR_10ul_Water.raw
+	Rwp:	      24.49
+	chisq:	       8.21
+     Form I	       46.2		+/-	        3.1
+    Form II	       53.8		+/-	        3.1
+1802_RVR_mill_water_1.0.raw
+	Rwp:	      25.44
+	chisq:	       7.57
+     Form I	       59.4		+/-	        2.8
+    Form II	       40.6		+/-	        2.8
+2014_RVR_10ul_Water.raw
+	Rwp:	      10.04
+	chisq:	       3.37
+     Form I	       90.4		+/-	        1.3
+    Form II	        9.6		+/-	        1.3
+1802_RVR_mill_water_1.0.raw
+	Rwp:	      13.20
+	chisq:	       3.93
+     Form I	       87.3		+/-	        1.2
+    Form II	       12.7		+/-	        1.2
+2014_RVR_10ul_Water.raw
+	Rwp:	      10.08
+	chisq:	       3.38
+     Form I	       92.3		+/-	        1.1
+    Form II	        7.7		+/-	        1.1
+1802_RVR_mill_water_1.0.raw
+	Rwp:	      13.19
+	chisq:	       3.93
+     Form I	       88.7		+/-	        1.0
+    Form II	       11.3		+/-	        1.0
+2014_RVR_10ul_Water.raw
+	Rwp:	      10.08
+	chisq:	       3.38
+     Form I	       92.4		+/-	        1.1
+    Form II	        7.6		+/-	        1.1
+1802_RVR_mill_water_1.0.raw
+	Rwp:	      13.19
+	chisq:	       3.93
+     Form I	       88.8		+/-	        1.0
+    Form II	       11.2		+/-	        1.0
+2014_RVR_10ul_Water.raw
+	Rwp:	      10.08
+	chisq:	       3.38
+     Form I	       92.6		+/-	        1.1
+    Form II	        7.4		+/-	        1.1
+1802_RVR_mill_water_1.0.raw
+	Rwp:	      13.20
+	chisq:	       3.93
+     Form I	       88.5		+/-	        1.0
+    Form II	       11.5		+/-	        1.0
+2014_RVR_10ul_Water.raw
+	Rwp:	      10.08
+	chisq:	       3.38
+     Form I	       92.5		+/-	        1.1
+    Form II	        7.5		+/-	        1.1
+1802_RVR_mill_water_1.0.raw
+	Rwp:	      13.20
+	chisq:	       3.93
+     Form I	       88.7		+/-	        1.0
+    Form II	       11.3		+/-	        1.0
+2014_RVR_10ul_Water.raw
+	Rwp:	      10.15
+	chisq:	       3.40
+     Form I	       96.1		+/-	        0.8
+    Form II	        3.9		+/-	        0.8
+1802_RVR_mill_water_1.0.raw
+	Rwp:	      13.27
+	chisq:	       3.95
+     Form I	       93.0		+/-	        0.8
+    Form II	        7.0		+/-	        0.8
+2014_RVR_10ul_Water.raw
+	Rwp:	       9.09
+	chisq:	       3.05
+     Form I	       84.4		+/-	        3.5
+    Form II	       15.6		+/-	        3.5
+1802_RVR_mill_water_1.0.raw
+	Rwp:	      10.70
+	chisq:	       3.19
+     Form I	       95.9		+/-	        0.7
+    Form II	        4.1		+/-	        0.7
+2014_RVR_10ul_Water.raw
+	Rwp:	       9.36
+	chisq:	       3.14
+     Form I	       95.9		+/-	        1.0
+    Form II	        4.1		+/-	        1.0
+1802_RVR_mill_water_1.0.raw
+	Rwp:	      10.70
+	chisq:	       3.19
+     Form I	       95.9		+/-	        0.7
+    Form II	        4.1		+/-	        0.7

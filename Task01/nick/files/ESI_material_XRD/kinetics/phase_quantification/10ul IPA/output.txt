@@ -1,0 +1,65 @@
+2033_RVR_10ul_IPA_1m.raw	Rwp:	      12.04
+	chisq:	       3.90
+     Form I	       92.6		+/-	        0.7
+    Form II	        7.4		+/-	        0.7
+2031_RVR_10ul_IPA_5m.raw	Rwp:	      11.41
+	chisq:	       3.82
+     Form I	       91.6		+/-	        0.8
+    Form II	        8.4		+/-	        0.8
+2028_RVR_10ul_IPA_15m.raw	Rwp:	      12.23
+	chisq:	       3.90
+     Form I	       90.0		+/-	        0.9
+    Form II	       10.0		+/-	        0.9
+RVR_10ul_IPA_30m.raw	Rwp:	      12.88
+	chisq:	       4.66
+     Form I	       94.3		+/-	        0.8
+    Form II	        5.7		+/-	        0.8
+RVR_10ul_IPA_45m.raw	Rwp:	      11.64
+	chisq:	       3.85
+     Form I	       85.4		+/-	        0.8
+    Form II	       14.6		+/-	        0.8
+2033_RVR_10ul_IPA_1m.raw	Rwp:	      11.67
+	chisq:	       3.79
+     Form I	       92.8		+/-	        0.8
+    Form II	        7.2		+/-	        0.8
+2031_RVR_10ul_IPA_5m.raw	Rwp:	      11.00
+	chisq:	       3.69
+     Form I	       91.8		+/-	        1.0
+    Form II	        8.2		+/-	        1.0
+2028_RVR_10ul_IPA_15m.raw	Rwp:	      11.72
+	chisq:	       3.74
+     Form I	       90.8		+/-	        1.1
+    Form II	        9.2		+/-	        1.1
+RVR_10ul_IPA_30m.raw	Rwp:	      12.47
+	chisq:	       4.51
+     Form I	       94.3		+/-	        0.9
+    Form II	        5.7		+/-	        0.9
+RVR_10ul_IPA_45m.raw	Rwp:	      10.69
+	chisq:	       3.53
+     Form I	       88.2		+/-	        0.9
+    Form II	       11.8		+/-	        0.9
+2033_RVR_10ul_IPA_1m.raw
+	Rwp:	      12.04
+	chisq:	       3.91
+     Form I	       93.8		+/-	        0.7
+    Form II	        6.2		+/-	        0.7
+2031_RVR_10ul_IPA_5m.raw
+	Rwp:	      11.30
+	chisq:	       3.79
+     Form I	       92.7		+/-	        0.9
+    Form II	        7.3		+/-	        0.9
+2028_RVR_10ul_IPA_15m.raw
+	Rwp:	      11.82
+	chisq:	       3.77
+     Form I	       92.7		+/-	        1.0
+    Form II	        7.3		+/-	        1.0
+RVR_10ul_IPA_30m.raw
+	Rwp:	      12.41
+	chisq:	       4.49
+     Form I	       96.3		+/-	        0.8
+    Form II	        3.7		+/-	        0.8
+RVR_10ul_IPA_45m.raw
+	Rwp:	      10.38
+	chisq:	       3.43
+     Form I	       87.8		+/-	        0.9
+    Form II	       12.2		+/-	        0.9

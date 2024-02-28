@@ -1,0 +1,4 @@
+file_name	Rwp	chisq	wtpc_Form1	wtpc_Form1_esd	wtpc_Form2	wtpc_Form2_esd	CS_L_Form1	CS_L_Form1_esd	CS_L_Form2	CS_L_Form2_esd	use_(Y_or_N)	comments	
+1489_RVR_neatgrind.xy	       6.90	      2.127	       30.4	        1.5	       69.6	        1.5	36.670268	2.944018	10.023193	0.760812	N
+1802_RVR_mill_water_1.0.xy	      13.23	      3.710	       88.2	        1.1	       11.8	        1.1	65.694366	0.973523	10.023193	1.952165	Y	not_Form2
+2014_RVR_10ul_Water.xy	      10.71	      3.600	       90.4	        1.3	        9.6	        1.3	43.741303	0.620152	10.023193	2.475129	Y	not_Form2

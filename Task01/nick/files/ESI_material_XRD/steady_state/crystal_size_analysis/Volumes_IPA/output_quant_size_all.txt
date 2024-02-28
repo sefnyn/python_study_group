@@ -1,0 +1,6 @@
+file_name	Rwp	chisq	wtpc_Form1	wtpc_Form1_esd	wtpc_Form2	wtpc_Form2_esd	CS_L_Form1	CS_L_Form1_esd	CS_L_Form2	CS_L_Form2_esd	use_(Y_or_N)	comments	
+RVR_IPA_10uL.xy	      11.97	      3.968	       88.6	        0.8	       11.4	        0.8	71.448757	1.551233	74.151328	10.500792	Y
+RVR_IPA_20uL.xy	      11.70	      4.119	       59.3	        0.6	       40.7	        0.6	69.316418	1.833152	89.672646	3.564335	Y
+RVR_IPA_30uL.xy	      14.07	      4.669	        7.8	        0.9	       92.2	        0.9	37.289417	6.622753	81.442264	1.576092	Y	not_Form1
+RVR_IPA_40uL.xy	      14.20	      4.824	        2.0	        1.9	       98.0	        1.9	12.908918	10.609888	95.808173	1.801897	Y	 not_Form1
+RVR_IPA_50uL.xy	      16.24	      4.480	       11.7	        1.2	       88.3	        1.2	10.011597	1.318898	108.716038	2.483191	Y	not_Form1

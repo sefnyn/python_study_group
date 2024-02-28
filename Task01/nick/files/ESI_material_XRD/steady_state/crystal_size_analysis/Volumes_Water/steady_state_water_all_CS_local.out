@@ -1,0 +1,1256 @@
+
+do_errors
+
+#define use_DF_sample01 
+#define use_DF_sample02 
+#define use_DF_sample03 
+'#define use_DF_sample04 
+'#define use_DF_sample05 
+'#define use_DF_sample06 
+'#define use_DF_sample07 
+'#define use_DF_sample08 
+'#define use_DF_sample09 
+'#define use_DF_sample10 
+'#define use_DF_sample11 
+'#define use_DF_sample12 
+'#define use_DF_sample13 
+'#define use_DF_sample14 
+'#define use_DF_sample15 
+'#define use_DF_sample16 
+'#define use_DF_sample17 
+'#define use_DF_sample18 
+'#define use_DF_sample19 
+'#define use_DF_sample20 
+
+
+'++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ 
+
+macro sample01 { "1489_RVR_neatgrind.xy" }
+macro sample02 { "1802_RVR_mill_water_1.0.xy" }
+macro sample03 { "2014_RVR_10ul_Water.xy" }
+'macro sample04 { "filename.xy" }
+'macro sample05 { "filename.xy" }
+'macro sample06 { "filename.xy" }
+'macro sample07 { "filename.xy" }
+'macro sample08 { "filename.xy" }
+'macro sample09 { "filename.xy" }
+'macro sample10 { "filename.xy" }
+'macro sample11 { "filename.xy" }
+'macro sample12 { "filename.xy" }
+'macro sample13 { "filename.xy" }
+'macro sample14 { "filename.xy" }
+'macro sample15 { "filename.xy" }
+'macro sample16 { "filename.xy" }
+'macro sample17 { "filename.xy" }
+'macro sample18 { "filename.xy" }
+'macro sample19 { "filename.xy" }
+'macro sample20 { "filename.xy" }
+'macro sample06 { "filename.xy" }
+
+
+'++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ 
+macro instr_par {
+
+x_calculation_step 0.01
+start_X 6
+	LP_Factor( 0)
+	Rp 141
+	Rs 141
+	Divergence(, 0.73879_0.02982)	
+	axial_conv 
+      filament_length !fil_l  12
+		sample_length !spl_l  15
+		receiving_slit_length  12
+		primary_soller_angle !Sol  1.55309_0.04593
+		secondary_soller_angle !Sol  1.55309_0.04593
+		axial_n_beta 20
+		axial_del  0.0053
+
+		lam
+      ymin_on_ymax 0.0001
+      la   0.63647_0.00646 lo 1.540596  lh   0.39293_0.01461
+      la   0.35268_0.00255 lo 1.544493  lh   0.48744_0.01108
+	Tube_Tails(, 0.14023_0.00128, , -0.89796_0.01311, , 1.34564_0.01193, , 0.00263_0.00071_LIMIT_MIN_1e-005)
+
+}
+  
+'++++++++++++++++++++++++++++++++++++++++++++++
+
+#ifdef use_DF_sample01
+
+xdd  sample01 
+
+local  CS_L_Form1_top   36.67027`_2.94402 min 10 max 2000
+local  CS_L_Form2_top   10.02319`_0.76081_LIMIT_MIN_10 min 10 max 2000 
+
+instr_par
+
+		
+bkg @  563.024234`_311.809907 -147.416654`_272.239358 -95.7135669`_115.109242  15.5637946`_51.5361938  132.979391`_23.874318 -103.313864`_11.3827866	
+	One_on_X(@, 164.81461`_4778.81245_LIMIT_MIN_0.0001)
+	Specimen_Displacement(@ , -0.08302`_0.00602)
+	
+
+		
+		
+	str
+	   phase_name "Form I"
+ CS_L(CS_L_Form1_sample01, =CS_L_Form1_top;)
+		scale  @  5.08897247e-005`_2.817e-006
+		r_bragg  3.36052886		
+		weight_percent  30.362`_1.526			
+
+	str
+		phase_name "Form II"
+ CS_L(CS_L_Form2_sample01, =CS_L_Form2_top;)
+		scale  @  2.67753091e-005`_1.244e-006
+		r_bragg  2.68056406		
+		weight_percent  69.638`_1.526		
+
+		    out "output_quant_size_all.txt" append
+   Out_String("file_name\t") 
+   Out_String("Rwp\t") 
+   Out_String("chisq\t") 
+   Out_String("wtpc_Form1\t") 
+   Out_String("wtpc_Form1_esd\t") 
+   Out_String("wtpc_Form2\t") 
+   Out_String("wtpc_Form2_esd\t") 
+   Out_String("CS_L_Form1\t") 
+   Out_String("CS_L_Form1_esd\t") 
+   Out_String("CS_L_Form2\t") 
+   Out_String("CS_L_Form2_esd\t") 
+   Out_String("use_(Y_or_N)\t") 
+   Out_String("comments\t") 
+   
+Out(Get(xdd_path_name),  "\n%s\t")
+Out(Get(r_wp),"%11.2f\t")
+Out(Get(gof),"%11.3f\t")
+    for strs {
+        Out(Get(weight_percent),"%11.1f\t", "%11.1f\t")
+        }
+	Out(CS_L_Form1_top,       "%5.6f\t", "%5.6f\t")
+	Out(CS_L_Form2_top,       "%5.6f\t", "%5.6f\t")
+		
+		
+#endif			
+		 
+'+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+		
+		
+
+#ifdef use_DF_sample02
+
+xdd sample02
+
+local  CS_L_Form1_top   65.69437`_0.97352 min 10 max 2000
+local  CS_L_Form2_top   10.02319`_1.95216_LIMIT_MIN_10 min 10 max 2000 
+
+instr_par
+
+		
+bkg @  273.935726`_63.5360993  40.0414478`_66.5581347 -99.3731081`_35.3760576  22.7361966`_19.0847441  14.6067164`_9.20807646 -29.6230079`_4.42465791	
+	One_on_X(@, 325.46857`_1253.84126)
+	Specimen_Displacement(@ , -0.10433`_0.00080)
+	
+
+		
+		
+	str
+	   phase_name "Form I"
+ CS_L(CS_L_Form1_sample02, =CS_L_Form1_top;)
+		scale  @  0.000258343147`_1.911e-006
+		r_bragg  6.74371461		
+		weight_percent  88.236`_1.091			
+
+	str
+		phase_name "Form II"
+ CS_L(CS_L_Form2_sample02, =CS_L_Form2_top;)
+		scale  @  7.90096306e-006`_8.283e-007
+		r_bragg  3.17198634		
+		weight_percent  11.764`_1.091		
+
+		    out "output_quant_size_all.txt" append
+Out(Get(xdd_path_name),  "\n%s\t")
+Out(Get(r_wp),"%11.2f\t")
+Out(Get(gof),"%11.3f\t")
+    for strs {
+        Out(Get(weight_percent),"%11.1f\t", "%11.1f\t")
+        }
+	Out(CS_L_Form1_top,       "%5.6f\t", "%5.6f\t")
+	Out(CS_L_Form2_top,       "%5.6f\t", "%5.6f\t")
+		
+		
+#endif			
+		 
+'+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+		
+
+#ifdef use_DF_sample03
+
+xdd sample03
+
+local  CS_L_Form1_top   43.74130`_0.62015 min 10 max 2000
+local  CS_L_Form2_top   10.02319`_2.47513_LIMIT_MIN_10 min 10 max 2000 
+
+instr_par
+
+		
+bkg @  362.403357`_125.798491  20.6120376`_121.769903 -117.139451`_58.2076423  42.7540545`_28.4533723  17.1778026`_12.944633 -42.6174638`_6.98192185	
+	One_on_X(@, 615.63413`_2189.94842)
+	Specimen_Displacement(@ , -0.14349`_0.00110)
+	
+
+		
+		
+	str
+	   phase_name "Form I"
+ CS_L(CS_L_Form1_sample03, =CS_L_Form1_top;)
+		scale  @  0.000335459933`_2.865e-006
+		r_bragg  4.25888146		
+		weight_percent  90.429`_1.266			
+
+	str
+		phase_name "Form II"
+ CS_L(CS_L_Form2_sample03, =CS_L_Form2_top;)
+		scale  @  8.1447373e-006`_1.19e-006
+		r_bragg  2.40605679		
+		weight_percent  9.571`_1.266		
+
+		    out "output_quant_size_all.txt" append
+Out(Get(xdd_path_name),  "\n%s\t")
+Out(Get(r_wp),"%11.2f\t")
+Out(Get(gof),"%11.3f\t")
+    for strs {
+        Out(Get(weight_percent),"%11.1f\t", "%11.1f\t")
+        }
+	Out(CS_L_Form1_top,       "%5.6f\t", "%5.6f\t")
+	Out(CS_L_Form2_top,       "%5.6f\t", "%5.6f\t")
+		
+		
+#endif			
+		 
+'+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+
+
+#ifdef use_DF_sample04
+
+xdd  sample04 
+
+local  CS_L_Form1_top   200   min 10 max 2000
+local  CS_L_Form2_top   200   min 10 max 2000 
+
+instr_par
+
+		
+bkg @  2439.20511_793.335662  58.2817737_786.897989 -543.861054_382.11666  55.8600082_191.519817  493.755613_91.1875433 -99.3194431_46.1219912	
+	One_on_X(@, 25205.18186_11959.39802)
+	Specimen_Displacement(@ , -0.05384_0.00242)
+	
+
+		
+		
+	str
+	   phase_name "Form I"
+ CS_L(CS_L_Form1_sample04, =CS_L_Form1_top;)
+		scale  @  0.00170291071_1.76e-005
+		r_bragg  8.9543565		
+		weight_percent  1.348_0.313			
+
+	str
+		phase_name "Form II"
+ CS_L(CS_L_Form2_sample04, =CS_L_Form2_top;)
+		scale  @  0.00170291071_1.76e-005
+		r_bragg  8.9543565		
+		weight_percent  1.348_0.313		
+
+		    out "output_quant_size_all.txt" append
+Out(Get(xdd_path_name),  "\n%s\t")
+Out(Get(r_wp),"%11.2f\t")
+Out(Get(gof),"%11.3f\t")
+    for strs {
+        Out(Get(weight_percent),"%11.1f\t", "%11.1f\t")
+        }
+	Out(CS_L_Form1_top,       "%5.6f\t", "%5.6f\t")
+	Out(CS_L_Form2_top,       "%5.6f\t", "%5.6f\t")
+		
+		
+#endif			
+		 
+
+'+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+#ifdef use_DF_sample05
+
+xdd  sample05 
+
+local  CS_L_Form1_top   200   min 10 max 2000
+local  CS_L_Form2_top   200   min 10 max 2000 
+
+instr_par
+
+		
+bkg @  2439.20511_793.335662  58.2817737_786.897989 -543.861054_382.11666  55.8600082_191.519817  493.755613_91.1875433 -99.3194431_46.1219912	
+	One_on_X(@, 25205.18186_11959.39802)
+	Specimen_Displacement(@ , -0.05384_0.00242)
+	
+
+		
+		
+	str
+	   phase_name "Form I"
+ CS_L(CS_L_Form1_sample05, =CS_L_Form1_top;)
+		scale  @  0.00170291071_1.76e-005
+		r_bragg  8.9543565		
+		weight_percent  1.348_0.313			
+
+	str
+		phase_name "Form II"
+ CS_L(CS_L_Form2_sample05, =CS_L_Form2_top;)
+		scale  @  0.00170291071_1.76e-005
+		r_bragg  8.9543565		
+		weight_percent  1.348_0.313		
+
+		    out "output_quant_size_all.txt" append
+Out(Get(xdd_path_name),  "\n%s\t")
+Out(Get(r_wp),"%11.2f\t")
+Out(Get(gof),"%11.3f\t")
+    for strs {
+        Out(Get(weight_percent),"%11.1f\t", "%11.1f\t")
+        }
+	Out(CS_L_Form1_top,       "%5.6f\t", "%5.6f\t")
+	Out(CS_L_Form2_top,       "%5.6f\t", "%5.6f\t")
+		
+		
+#endif			
+		 
+
+'+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+#ifdef use_DF_sample06
+
+xdd  sample06 
+
+local  CS_L_Form1_top   200   min 10 max 2000
+local  CS_L_Form2_top   200   min 10 max 2000 
+
+instr_par
+
+		
+bkg @  2439.20511_793.335662  58.2817737_786.897989 -543.861054_382.11666  55.8600082_191.519817  493.755613_91.1875433 -99.3194431_46.1219912	
+	One_on_X(@, 25205.18186_11959.39802)
+	Specimen_Displacement(@ , -0.05384_0.00242)
+	
+
+		
+		
+	str
+	   phase_name "Form I"
+ CS_L(CS_L_Form1_sample06, =CS_L_Form1_top;)
+		scale  @  0.00170291071_1.76e-005
+		r_bragg  8.9543565		
+		weight_percent  1.348_0.313			
+
+	str
+		phase_name "Form II"
+ CS_L(CS_L_Form2_sample06, =CS_L_Form2_top;)
+		scale  @  0.00170291071_1.76e-005
+		r_bragg  8.9543565		
+		weight_percent  1.348_0.313		
+
+		    out "output_quant_size_all.txt" append
+Out(Get(xdd_path_name),  "\n%s\t")
+Out(Get(r_wp),"%11.2f\t")
+Out(Get(gof),"%11.3f\t")
+    for strs {
+        Out(Get(weight_percent),"%11.1f\t", "%11.1f\t")
+        }
+	Out(CS_L_Form1_top,       "%5.6f\t", "%5.6f\t")
+	Out(CS_L_Form2_top,       "%5.6f\t", "%5.6f\t")
+		
+		
+#endif			
+		 
+
+'+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+#ifdef use_DF_sample07
+
+xdd  sample07 
+
+local  CS_L_Form1_top   200   min 10 max 2000
+local  CS_L_Form2_top   200   min 10 max 2000 
+
+instr_par
+
+		
+bkg @  2439.20511_793.335662  58.2817737_786.897989 -543.861054_382.11666  55.8600082_191.519817  493.755613_91.1875433 -99.3194431_46.1219912	
+	One_on_X(@, 25205.18186_11959.39802)
+	Specimen_Displacement(@ , -0.05384_0.00242)
+	
+
+		
+		
+	str
+	   phase_name "Form I"
+ CS_L(CS_L_Form1_sample07, =CS_L_Form1_top;)
+		scale  @  0.00170291071_1.76e-005
+		r_bragg  8.9543565		
+		weight_percent  1.348_0.313			
+
+	str
+		phase_name "Form II"
+ CS_L(CS_L_Form2_sample07, =CS_L_Form2_top;)
+		scale  @  0.00170291071_1.76e-005
+		r_bragg  8.9543565		
+		weight_percent  1.348_0.313		
+
+		    out "output_quant_size_all.txt" append
+Out(Get(xdd_path_name),  "\n%s\t")
+Out(Get(r_wp),"%11.2f\t")
+Out(Get(gof),"%11.3f\t")
+    for strs {
+        Out(Get(weight_percent),"%11.1f\t", "%11.1f\t")
+        }
+	Out(CS_L_Form1_top,       "%5.6f\t", "%5.6f\t")
+	Out(CS_L_Form2_top,       "%5.6f\t", "%5.6f\t")
+		
+		
+#endif			
+		 
+
+'+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+#ifdef use_DF_sample08
+
+xdd  sample08 
+
+local  CS_L_Form1_top   200   min 10 max 2000
+local  CS_L_Form2_top   200   min 10 max 2000 
+
+instr_par
+
+		
+bkg @  2439.20511_793.335662  58.2817737_786.897989 -543.861054_382.11666  55.8600082_191.519817  493.755613_91.1875433 -99.3194431_46.1219912	
+	One_on_X(@, 25205.18186_11959.39802)
+	Specimen_Displacement(@ , -0.05384_0.00242)
+	
+
+		
+		
+	str
+	   phase_name "Form I"
+ CS_L(CS_L_Form1_sample08, =CS_L_Form1_top;)
+		scale  @  0.00170291071_1.76e-005
+		r_bragg  8.9543565		
+		weight_percent  1.348_0.313			
+
+	str
+		phase_name "Form II"
+ CS_L(CS_L_Form2_sample08, =CS_L_Form2_top;)
+		scale  @  0.00170291071_1.76e-005
+		r_bragg  8.9543565		
+		weight_percent  1.348_0.313		
+
+		    out "output_quant_size_all.txt" append
+Out(Get(xdd_path_name),  "\n%s\t")
+Out(Get(r_wp),"%11.2f\t")
+Out(Get(gof),"%11.3f\t")
+    for strs {
+        Out(Get(weight_percent),"%11.1f\t", "%11.1f\t")
+        }
+	Out(CS_L_Form1_top,       "%5.6f\t", "%5.6f\t")
+	Out(CS_L_Form2_top,       "%5.6f\t", "%5.6f\t")
+		
+		
+#endif			
+		 
+
+'+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+#ifdef use_DF_sample09
+
+xdd  sample09 
+
+local  CS_L_Form1_top   200   min 10 max 2000
+local  CS_L_Form2_top   200   min 10 max 2000 
+
+instr_par
+
+		
+bkg @  2439.20511_793.335662  58.2817737_786.897989 -543.861054_382.11666  55.8600082_191.519817  493.755613_91.1875433 -99.3194431_46.1219912	
+	One_on_X(@, 25205.18186_11959.39802)
+	Specimen_Displacement(@ , -0.05384_0.00242)
+	
+
+		
+		
+	str
+	   phase_name "Form I"
+ CS_L(CS_L_Form1_sample09, =CS_L_Form1_top;)
+		scale  @  0.00170291071_1.76e-005
+		r_bragg  8.9543565		
+		weight_percent  1.348_0.313			
+
+	str
+		phase_name "Form II"
+ CS_L(CS_L_Form2_sample09, =CS_L_Form2_top;)
+		scale  @  0.00170291071_1.76e-005
+		r_bragg  8.9543565		
+		weight_percent  1.348_0.313		
+
+		    out "output_quant_size_all.txt" append
+Out(Get(xdd_path_name),  "\n%s\t")
+Out(Get(r_wp),"%11.2f\t")
+Out(Get(gof),"%11.3f\t")
+    for strs {
+        Out(Get(weight_percent),"%11.1f\t", "%11.1f\t")
+        }
+	Out(CS_L_Form1_top,       "%5.6f\t", "%5.6f\t")
+	Out(CS_L_Form2_top,       "%5.6f\t", "%5.6f\t")
+		
+		
+#endif			
+		 
+
+'+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+#ifdef use_DF_sample10
+
+xdd  sample10 
+
+local  CS_L_Form1_top   200   min 10 max 2000
+local  CS_L_Form2_top   200   min 10 max 2000 
+
+instr_par
+
+		
+bkg @  2439.20511_793.335662  58.2817737_786.897989 -543.861054_382.11666  55.8600082_191.519817  493.755613_91.1875433 -99.3194431_46.1219912	
+	One_on_X(@, 25205.18186_11959.39802)
+	Specimen_Displacement(@ , -0.05384_0.00242)
+	
+
+		
+		
+	str
+	   phase_name "Form I"
+ CS_L(CS_L_Form1_sample10, =CS_L_Form1_top;)
+		scale  @  0.00170291071_1.76e-005
+		r_bragg  8.9543565		
+		weight_percent  1.348_0.313			
+
+	str
+		phase_name "Form II"
+ CS_L(CS_L_Form2_sample10, =CS_L_Form2_top;)
+		scale  @  0.00170291071_1.76e-005
+		r_bragg  8.9543565		
+		weight_percent  1.348_0.313		
+
+		    out "output_quant_size_all.txt" append
+Out(Get(xdd_path_name),  "\n%s\t")
+Out(Get(r_wp),"%11.2f\t")
+Out(Get(gof),"%11.3f\t")
+    for strs {
+        Out(Get(weight_percent),"%11.1f\t", "%11.1f\t")
+        }
+	Out(CS_L_Form1_top,       "%5.6f\t", "%5.6f\t")
+	Out(CS_L_Form2_top,       "%5.6f\t", "%5.6f\t")
+		
+		
+#endif			
+		 
+
+'+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+#ifdef use_DF_sample11
+
+xdd  sample11 
+
+local  CS_L_Form1_top   200   min 10 max 2000
+local  CS_L_Form2_top   200   min 10 max 2000 
+
+instr_par
+
+		
+bkg @  2439.20511_793.335662  58.2817737_786.897989 -543.861054_382.11666  55.8600082_191.519817  493.755613_91.1875433 -99.3194431_46.1219912	
+	One_on_X(@, 25205.18186_11959.39802)
+	Specimen_Displacement(@ , -0.05384_0.00242)
+	
+
+		
+		
+	str
+	   phase_name "Form I"
+ CS_L(CS_L_Form1_sample11, =CS_L_Form1_top;)
+		scale  @  0.00170291071_1.76e-005
+		r_bragg  8.9543565		
+		weight_percent  1.348_0.313			
+
+	str
+		phase_name "Form II"
+ CS_L(CS_L_Form2_sample11, =CS_L_Form2_top;)
+		scale  @  0.00170291071_1.76e-005
+		r_bragg  8.9543565		
+		weight_percent  1.348_0.313		
+
+		    out "output_quant_size_all.txt" append
+Out(Get(xdd_path_name),  "\n%s\t")
+Out(Get(r_wp),"%11.2f\t")
+Out(Get(gof),"%11.3f\t")
+    for strs {
+        Out(Get(weight_percent),"%11.1f\t", "%11.1f\t")
+        }
+	Out(CS_L_Form1_top,       "%5.6f\t", "%5.6f\t")
+	Out(CS_L_Form2_top,       "%5.6f\t", "%5.6f\t")
+		
+		
+#endif			
+		 
+
+'+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+#ifdef use_DF_sample12
+
+xdd  sample12 
+
+local  CS_L_Form1_top   200   min 10 max 2000
+local  CS_L_Form2_top   200   min 10 max 2000 
+
+instr_par
+
+		
+bkg @  2439.20511_793.335662  58.2817737_786.897989 -543.861054_382.11666  55.8600082_191.519817  493.755613_91.1875433 -99.3194431_46.1219912	
+	One_on_X(@, 25205.18186_11959.39802)
+	Specimen_Displacement(@ , -0.05384_0.00242)
+	
+
+		
+		
+	str
+	   phase_name "Form I"
+ CS_L(CS_L_Form1_sample12, =CS_L_Form1_top;)
+		scale  @  0.00170291071_1.76e-005
+		r_bragg  8.9543565		
+		weight_percent  1.348_0.313			
+
+	str
+		phase_name "Form II"
+ CS_L(CS_L_Form2_sample12, =CS_L_Form2_top;)
+		scale  @  0.00170291071_1.76e-005
+		r_bragg  8.9543565		
+		weight_percent  1.348_0.313		
+
+		    out "output_quant_size_all.txt" append
+Out(Get(xdd_path_name),  "\n%s\t")
+Out(Get(r_wp),"%11.2f\t")
+Out(Get(gof),"%11.3f\t")
+    for strs {
+        Out(Get(weight_percent),"%11.1f\t", "%11.1f\t")
+        }
+	Out(CS_L_Form1_top,       "%5.6f\t", "%5.6f\t")
+	Out(CS_L_Form2_top,       "%5.6f\t", "%5.6f\t")
+		
+		
+#endif			
+		 
+
+'+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+#ifdef use_DF_sample13
+
+xdd  sample13 
+
+local  CS_L_Form1_top   200   min 10 max 2000
+local  CS_L_Form2_top   200   min 10 max 2000 
+
+instr_par
+
+		
+bkg @  2439.20511_793.335662  58.2817737_786.897989 -543.861054_382.11666  55.8600082_191.519817  493.755613_91.1875433 -99.3194431_46.1219912	
+	One_on_X(@, 25205.18186_11959.39802)
+	Specimen_Displacement(@ , -0.05384_0.00242)
+	
+
+		
+		
+	str
+	   phase_name "Form I"
+ CS_L(CS_L_Form1_sample13, =CS_L_Form1_top;)
+		scale  @  0.00170291071_1.76e-005
+		r_bragg  8.9543565		
+		weight_percent  1.348_0.313			
+
+	str
+		phase_name "Form II"
+ CS_L(CS_L_Form2_sample13, =CS_L_Form2_top;)
+		scale  @  0.00170291071_1.76e-005
+		r_bragg  8.9543565		
+		weight_percent  1.348_0.313		
+
+		    out "output_quant_size_all.txt" append
+Out(Get(xdd_path_name),  "\n%s\t")
+Out(Get(r_wp),"%11.2f\t")
+Out(Get(gof),"%11.3f\t")
+    for strs {
+        Out(Get(weight_percent),"%11.1f\t", "%11.1f\t")
+        }
+	Out(CS_L_Form1_top,       "%5.6f\t", "%5.6f\t")
+	Out(CS_L_Form2_top,       "%5.6f\t", "%5.6f\t")
+		
+		
+#endif			
+		 
+
+'+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+#ifdef use_DF_sample14
+
+xdd  sample14 
+
+local  CS_L_Form1_top   200   min 10 max 2000
+local  CS_L_Form2_top   200   min 10 max 2000 
+
+instr_par
+
+		
+bkg @  2439.20511_793.335662  58.2817737_786.897989 -543.861054_382.11666  55.8600082_191.519817  493.755613_91.1875433 -99.3194431_46.1219912	
+	One_on_X(@, 25205.18186_11959.39802)
+	Specimen_Displacement(@ , -0.05384_0.00242)
+	
+
+		
+		
+	str
+	   phase_name "Form I"
+ CS_L(CS_L_Form1_sample14, =CS_L_Form1_top;)
+		scale  @  0.00170291071_1.76e-005
+		r_bragg  8.9543565		
+		weight_percent  1.348_0.313			
+
+	str
+		phase_name "Form II"
+ CS_L(CS_L_Form2_sample14, =CS_L_Form2_top;)
+		scale  @  0.00170291071_1.76e-005
+		r_bragg  8.9543565		
+		weight_percent  1.348_0.313		
+
+		    out "output_quant_size_all.txt" append
+Out(Get(xdd_path_name),  "\n%s\t")
+Out(Get(r_wp),"%11.2f\t")
+Out(Get(gof),"%11.3f\t")
+    for strs {
+        Out(Get(weight_percent),"%11.1f\t", "%11.1f\t")
+        }
+	Out(CS_L_Form1_top,       "%5.6f\t", "%5.6f\t")
+	Out(CS_L_Form2_top,       "%5.6f\t", "%5.6f\t")
+		
+		
+#endif			
+		 
+
+'+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+#ifdef use_DF_sample15
+
+xdd  sample15 
+
+local  CS_L_Form1_top   200   min 10 max 2000
+local  CS_L_Form2_top   200   min 10 max 2000 
+
+instr_par
+
+		
+bkg @  2439.20511_793.335662  58.2817737_786.897989 -543.861054_382.11666  55.8600082_191.519817  493.755613_91.1875433 -99.3194431_46.1219912	
+	One_on_X(@, 25205.18186_11959.39802)
+	Specimen_Displacement(@ , -0.05384_0.00242)
+	
+
+		
+		
+	str
+	   phase_name "Form I"
+ CS_L(CS_L_Form1_sample15, =CS_L_Form1_top;)
+		scale  @  0.00170291071_1.76e-005
+		r_bragg  8.9543565		
+		weight_percent  1.348_0.313			
+
+	str
+		phase_name "Form II"
+ CS_L(CS_L_Form2_sample15, =CS_L_Form2_top;)
+		scale  @  0.00170291071_1.76e-005
+		r_bragg  8.9543565		
+		weight_percent  1.348_0.313		
+
+		    out "output_quant_size_all.txt" append
+Out(Get(xdd_path_name),  "\n%s\t")
+Out(Get(r_wp),"%11.2f\t")
+Out(Get(gof),"%11.3f\t")
+    for strs {
+        Out(Get(weight_percent),"%11.1f\t", "%11.1f\t")
+        }
+	Out(CS_L_Form1_top,       "%5.6f\t", "%5.6f\t")
+	Out(CS_L_Form2_top,       "%5.6f\t", "%5.6f\t")
+		
+		
+#endif			
+		 
+
+'+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+#ifdef use_DF_sample16
+
+xdd  sample16 
+
+local  CS_L_Form1_top   200   min 10 max 2000
+local  CS_L_Form2_top   200   min 10 max 2000 
+
+instr_par
+
+		
+bkg @  2439.20511_793.335662  58.2817737_786.897989 -543.861054_382.11666  55.8600082_191.519817  493.755613_91.1875433 -99.3194431_46.1219912	
+	One_on_X(@, 25205.18186_11959.39802)
+	Specimen_Displacement(@ , -0.05384_0.00242)
+	
+
+		
+		
+	str
+	   phase_name "Form I"
+ CS_L(CS_L_Form1_sample16, =CS_L_Form1_top;)
+		scale  @  0.00170291071_1.76e-005
+		r_bragg  8.9543565		
+		weight_percent  1.348_0.313			
+
+	str
+		phase_name "Form II"
+ CS_L(CS_L_Form2_sample16, =CS_L_Form2_top;)
+		scale  @  0.00170291071_1.76e-005
+		r_bragg  8.9543565		
+		weight_percent  1.348_0.313		
+
+		    out "output_quant_size_all.txt" append
+Out(Get(xdd_path_name),  "\n%s\t")
+Out(Get(r_wp),"%11.2f\t")
+Out(Get(gof),"%11.3f\t")
+    for strs {
+        Out(Get(weight_percent),"%11.1f\t", "%11.1f\t")
+        }
+	Out(CS_L_Form1_top,       "%5.6f\t", "%5.6f\t")
+	Out(CS_L_Form2_top,       "%5.6f\t", "%5.6f\t")
+		
+		
+#endif			
+		 
+
+'+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+#ifdef use_DF_sample17
+
+xdd  sample17 
+
+local  CS_L_Form1_top   200   min 10 max 2000
+local  CS_L_Form2_top   200   min 10 max 2000 
+
+instr_par
+
+		
+bkg @  2439.20511_793.335662  58.2817737_786.897989 -543.861054_382.11666  55.8600082_191.519817  493.755613_91.1875433 -99.3194431_46.1219912	
+	One_on_X(@, 25205.18186_11959.39802)
+	Specimen_Displacement(@ , -0.05384_0.00242)
+	
+
+		
+		
+	str
+	   phase_name "Form I"
+ CS_L(CS_L_Form1_sample17, =CS_L_Form1_top;)
+		scale  @  0.00170291071_1.76e-005
+		r_bragg  8.9543565		
+		weight_percent  1.348_0.313			
+
+	str
+		phase_name "Form II"
+ CS_L(CS_L_Form2_sample17, =CS_L_Form2_top;)
+		scale  @  0.00170291071_1.76e-005
+		r_bragg  8.9543565		
+		weight_percent  1.348_0.313		
+
+		    out "output_quant_size_all.txt" append
+Out(Get(xdd_path_name),  "\n%s\t")
+Out(Get(r_wp),"%11.2f\t")
+Out(Get(gof),"%11.3f\t")
+    for strs {
+        Out(Get(weight_percent),"%11.1f\t", "%11.1f\t")
+        }
+	Out(CS_L_Form1_top,       "%5.6f\t", "%5.6f\t")
+	Out(CS_L_Form2_top,       "%5.6f\t", "%5.6f\t")
+		
+		
+#endif			
+		 
+
+'+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+#ifdef use_DF_sample18
+
+xdd  sample18 
+
+local  CS_L_Form1_top   200   min 10 max 2000
+local  CS_L_Form2_top   200   min 10 max 2000 
+
+instr_par
+
+		
+bkg @  2439.20511_793.335662  58.2817737_786.897989 -543.861054_382.11666  55.8600082_191.519817  493.755613_91.1875433 -99.3194431_46.1219912	
+	One_on_X(@, 25205.18186_11959.39802)
+	Specimen_Displacement(@ , -0.05384_0.00242)
+	
+
+		
+		
+	str
+	   phase_name "Form I"
+ CS_L(CS_L_Form1_sample18, =CS_L_Form1_top;)
+		scale  @  0.00170291071_1.76e-005
+		r_bragg  8.9543565		
+		weight_percent  1.348_0.313			
+
+	str
+		phase_name "Form II"
+ CS_L(CS_L_Form2_sample18, =CS_L_Form2_top;)
+		scale  @  0.00170291071_1.76e-005
+		r_bragg  8.9543565		
+		weight_percent  1.348_0.313		
+
+		    out "output_quant_size_all.txt" append
+Out(Get(xdd_path_name),  "\n%s\t")
+Out(Get(r_wp),"%11.2f\t")
+Out(Get(gof),"%11.3f\t")
+    for strs {
+        Out(Get(weight_percent),"%11.1f\t", "%11.1f\t")
+        }
+	Out(CS_L_Form1_top,       "%5.6f\t", "%5.6f\t")
+	Out(CS_L_Form2_top,       "%5.6f\t", "%5.6f\t")
+		
+		
+#endif			
+		 
+
+'+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+#ifdef use_DF_sample19
+
+xdd  sample19 
+
+local  CS_L_Form1_top   200   min 10 max 2000
+local  CS_L_Form2_top   200   min 10 max 2000 
+
+instr_par
+
+		
+bkg @  2439.20511_793.335662  58.2817737_786.897989 -543.861054_382.11666  55.8600082_191.519817  493.755613_91.1875433 -99.3194431_46.1219912	
+	One_on_X(@, 25205.18186_11959.39802)
+	Specimen_Displacement(@ , -0.05384_0.00242)
+	
+
+		
+		
+	str
+	   phase_name "Form I"
+ CS_L(CS_L_Form1_sample19, =CS_L_Form1_top;)
+		scale  @  0.00170291071_1.76e-005
+		r_bragg  8.9543565		
+		weight_percent  1.348_0.313			
+
+	str
+		phase_name "Form II"
+ CS_L(CS_L_Form2_sample19, =CS_L_Form2_top;)
+		scale  @  0.00170291071_1.76e-005
+		r_bragg  8.9543565		
+		weight_percent  1.348_0.313		
+
+		    out "output_quant_size_all.txt" append
+Out(Get(xdd_path_name),  "\n%s\t")
+Out(Get(r_wp),"%11.2f\t")
+Out(Get(gof),"%11.3f\t")
+    for strs {
+        Out(Get(weight_percent),"%11.1f\t", "%11.1f\t")
+        }
+	Out(CS_L_Form1_top,       "%5.6f\t", "%5.6f\t")
+	Out(CS_L_Form2_top,       "%5.6f\t", "%5.6f\t")
+		
+		
+#endif			
+		 
+
+'+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+#ifdef use_DF_sample20
+
+xdd  sample20 
+
+local  CS_L_Form1_top   200   min 10 max 2000
+local  CS_L_Form2_top   200   min 10 max 2000 
+
+instr_par
+
+		
+bkg @  2439.20511_793.335662  58.2817737_786.897989 -543.861054_382.11666  55.8600082_191.519817  493.755613_91.1875433 -99.3194431_46.1219912	
+	One_on_X(@, 25205.18186_11959.39802)
+	Specimen_Displacement(@ , -0.05384_0.00242)
+	
+
+		
+		
+	str
+	   phase_name "Form I"
+ CS_L(CS_L_Form1_sample20, =CS_L_Form1_top;)
+		scale  @  0.00170291071_1.76e-005
+		r_bragg  8.9543565		
+		weight_percent  1.348_0.313			
+
+	str
+		phase_name "Form II"
+ CS_L(CS_L_Form2_sample20, =CS_L_Form2_top;)
+		scale  @  0.00170291071_1.76e-005
+		r_bragg  8.9543565		
+		weight_percent  1.348_0.313		
+
+		    out "output_quant_size_all.txt" append
+Out(Get(xdd_path_name),  "\n%s\t")
+Out(Get(r_wp),"%11.2f\t")
+Out(Get(gof),"%11.3f\t")
+    for strs {
+        Out(Get(weight_percent),"%11.1f\t", "%11.1f\t")
+        }
+	Out(CS_L_Form1_top,       "%5.6f\t", "%5.6f\t")
+	Out(CS_L_Form2_top,       "%5.6f\t", "%5.6f\t")
+		
+		
+#endif			
+		 
+'+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+		
+		
+		
+
+	for xdds {
+		for strs 1 to 1 {
+			phase_name "Form I"
+			a 13.5013  
+			b 5.3156   
+			c 27.206   
+			al 90       
+			be 103.100  
+			ga 90       
+			volume  1901.695
+			space_group "P21"
+			site S1     x 0.35854       y -0.3042       z 0.0828        occ S    1          beq 5.0          
+			site S2     x 0.6765        y -0.0272       z 0.5796        occ S    1          beq 5.0          
+			site O1     x 0.06731573    y 0.2579195     z 0.1653642     occ O    1          beq 1.0          
+			site O2     x 0.325108      y -0.3411536    z 0.2410573     occ O    1          beq 1.0          
+			site O3     x 0.6138861     y -0.2784702    z 0.3152426     occ O    1          beq 1.0          
+			site O4     x 0.7132568     y 0.4682356     z 0.4218754     occ O    1          beq 1.0          
+			site O5     x 0.6634911     y 0.1612888     z 0.4689292     occ O    1          beq 1.0          
+			site N1     x 0.19051       y -0.1067       z 0.03872       occ N    1          beq 5.0          
+			site N2     x 0.0313276     y -0.0565598    z 0.1073648     occ N    1          beq 5.0          
+			site N3     x 0.1275591     y -0.1313638    z 0.1874036     occ N    1          beq 5.0          
+			site N4     x 0.3584886     y 0.07659476    z 0.2392733     occ N    1          beq 5.0          
+			site N5     x 0.6920265     y 0.05918629    z 0.3942263     occ N    1          beq 5.0          
+			site N6     x 0.5333        y 0.1822        z 0.6115        occ N    1          beq 5.0          
+			site C1     x 0.3780        y -0.174        z -0.0328       occ C    1          beq 3.1          
+			site C2     x 0.27107       y 0.1653        z -0.0293       occ C    1          beq 3.1          
+			site C3     x 0.33162       y 0.0268        z 0.0025        occ C    1          beq 3.1          
+			site C4     x 0.28658       y -0.1086       z 0.0383        occ C    1          beq 3.1          
+			site C5     x 0.17149       y -0.2570       z 0.07674       occ C    1          beq 3.1          
+			site C6     x 0.25069       y -0.3730       z 0.10309       occ C    1          beq 3.1          
+			site C7     x 0.06839485    y -0.2797227    z 0.08666616    occ C    1          beq 3.1          
+			site C8     x -0.02920256   y 0.1219333     z 0.0701063     occ C    1          beq 3.1          
+			site C9     x 0.07540194    y 0.03557182    z 0.1543817     occ C    1          beq 3.1          
+			site C10    x 0.1859836     y -0.05025262   z 0.2366758     occ C    1          beq 3.1          
+			site C11    x 0.14496       y -0.132        z 0.2826        occ C    1          beq 3.1          
+			site C12    x 0.0315        y -0.111        z 0.2726        occ C    1          beq 3.1          
+			site C13    x 0.1973        y 0.029         z 0.32734       occ C    1          beq 3.1          
+			site C14    x 0.29653       y -0.1190367    z 0.2396261     occ C    1          beq 3.1          
+			site C15    x 0.4673816     y 0.05253735    z 0.2397287     occ C    1          beq 3.1          
+			site C16    x 0.48560       y 0.2175        z 0.19614       occ C    1          beq 3.1          
+			site C17    x 0.59484       y 0.2269        z 0.1914        occ C    1          beq 3.1          
+			site C18    x 0.6348        y 0.047         z 0.16544       occ C    1          beq 3.1          
+			site C19    x 0.7376        y 0.047         z 0.16359       occ C    1          beq 3.1          
+			site C20    x 0.8013        y 0.237         z 0.1877        occ C    1          beq 3.1          
+			site C21    x 0.76096       y 0.4195        z 0.2135        occ C    1          beq 3.1          
+			site C22    x 0.66065       y 0.4168        z 0.2156        occ C    1          beq 3.1          
+			site C23    x 0.5333368     y 0.1242047     z 0.2918692     occ C    1          beq 3.1          
+			site C24    x 0.6327268     y -0.02102908   z 0.3034901     occ C    1          beq 3.1          
+			site C25    x 0.7172396     y 0.09103542    z 0.3451716     occ C    1          beq 3.1          
+			site C26    x 0.81355       y -0.0613       z 0.3467        occ C    1          beq 3.1          
+			site C27    x 0.90800       y 0.0362        z 0.3830        occ C    1          beq 3.1          
+			site C28    x 0.9621        y 0.2350        z 0.3693        occ C    1          beq 3.1          
+			site C29    x 1.04894       y 0.321         z 0.4019        occ C    1          beq 3.1          
+			site C30    x 1.0825        y 0.2120        z 0.4480        occ C    1          beq 3.1          
+			site C31    x 1.0293        y 0.0127        z 0.4620        occ C    1          beq 3.1          
+			site C32    x 0.9416        y -0.0708       z 0.4291        occ C    1          beq 3.1          
+			site C33    x 0.6925762     y 0.2474776     z 0.4264247     occ C    1          beq 3.1          
+			site C34    x 0.6564        y 0.34908       z 0.50556       occ C    1          beq 3.1          
+			site C35    x 0.6207        y 0.2334        z 0.54762       occ C    1          beq 3.1          
+			site C36    x 0.5460        y 0.3137        z 0.5701        occ C    1          beq 3.1          
+			site C37    x 0.5980        y -0.0024       z 0.6204        occ C    1          beq 3.1                  
+
+		TCHZ_Peak_Type(, 0.00042_0.00043,, 0.00101_0.00041,,-0.00108_0.00008,, 0,, 0.05026_0.00043,, 0)
+			
+		}
+		
+		for strs 2 to 2 {
+			phase_name "Form II"
+			a 10.0299  
+			b 18.7348  
+			c 20.5787  
+			al 90       
+			be 90       
+			ga 90       
+			volume  3866.906
+			space_group "P212121"
+			site S1     x 0.4770622     y 1.278621      z 0.8712921     occ S    1          beq 5.0          
+			site S2     x 0.2593037     y 0.4065051     z 0.6986439     occ S    1          beq 5.0          
+			site O1     x 0.6261882     y 1.004327      z 1.030148      occ O    1          beq 1.9          
+			site O2     x 0.2740301     y 0.8559269     z 1.054512      occ O    1          beq 1.9          
+			site O3     x 0.2507436     y 0.6242204     z 0.9982544     occ O    1          beq 1.9          
+			site H1     x 0.2024092     y 0.5917323     z 0.9832701     occ H    1          beq 5            
+			site O4     x 0.668879      y 0.4992502     z 0.8457461     occ O    1          beq 1.9          
+			site O5     x 0.4453965     y 0.4783307     z 0.8598796     occ O    1          beq 1.9          
+			site N1     x 0.5157048     y 1.145959      z 0.9011856     occ N    1          beq 5.0          
+			site N2     x 0.4749961     y 1.096082      z 1.045097      occ N    1          beq 5.0          
+			site N3     x 0.4347775     y 0.9823546     z 1.088669      occ N    1          beq 5.0          
+			site H2     x 0.3576215     y 0.9987829     z 1.102481      occ H    1          beq 5            
+			site N4     x 0.4767037     y 0.8107748     z 1.022025      occ N    1          beq 5.0          
+			site H3     x 0.5635533     y 0.8141379     z 1.0264        occ H    1          beq 5            
+			site N5     x 0.5651665     y 0.5333709     z 0.9403356     occ N    1          beq 5.0          
+			site H4     x 0.6420931     y 0.5462032     z 0.9573815     occ H    1          beq 5            
+			site N6     x 0.09449473    y 0.3735085     z 0.7920592     occ N    1          beq 5.0          
+			site C1     x 0.5875129     y 1.135346      z 0.7510341     occ C    1          beq 1.3          
+			site H5     x 0.6255522     y 1.101636      z 0.7782234     occ H    1          beq 5            
+			site H6     x 0.6393177     y 1.180252      z 0.7501505     occ H    1          beq 5            
+			site H7     x 0.5658088     y 1.120405      z 0.7085733     occ H    1          beq 5            
+			site C2     x 0.4561591     y 1.159282      z 0.7830758     occ C    1          beq 1.3          
+			site H8     x 0.3922392     y 1.11475       z 0.78744       occ H    1          beq 5            
+			site C3     x 0.382221      y 1.215771      z 0.7414859     occ C    1          beq 1.3          
+			site H9     x 0.4255612     y 1.255581      z 0.7351643     occ H    1          beq 5            
+			site H10    x 0.2878954     y 1.227712      z 0.7654397     occ H    1          beq 5            
+			site H11    x 0.3460859     y 1.192549      z 0.7007278     occ H    1          beq 5            
+			site C4     x 0.4854377     y 1.18795       z 0.851268      occ C    1          beq 1.3          
+			site C5     x 0.5149743     y 1.257731      z 0.95158       occ C    1          beq 1.3          
+			site H12    x 0.5282918     y 1.291469      z 0.9848283     occ H    1          beq 5            
+			site C6     x 0.5309408     y 1.185867      z 0.9582588     occ C    1          beq 1.3          
+			site C7     x 0.57452       y 1.14908       z 1.02185       occ C    1          beq 1.3          
+			site H13    x 0.6608838     y 1.124008      z 1.012729      occ H    1          beq 5            
+			site H14    x 0.5906979     y 1.184315      z 1.05618       occ H    1          beq 5            
+			site C8     x 0.3509532     y 1.123774      z 1.074076      occ C    1          beq 1.3          
+			site H15    x 0.3605852     y 1.126969      z 1.120398      occ H    1          beq 5            
+			site H16    x 0.2766787     y 1.092443      z 1.062883      occ H    1          beq 5            
+			site H17    x 0.3326929     y 1.17155       z 1.056186      occ H    1          beq 5            
+			site C9     x 0.5170232     y 1.02589       z 1.053989      occ C    1          beq 1.3          
+			site C10    x 0.4749415     y 0.9076204     z 1.103368      occ C    1          beq 1.3          
+			site H18    x 0.5723288     y 0.9016458     z 1.095937      occ H    1          beq 5            
+			site C11    x 0.4380812     y 0.8892566     z 1.175912      occ C    1          beq 1.3          
+			site H19    x 0.3438365     y 0.8918235     z 1.183711      occ H    1          beq 5            
+			site C12    x 0.5099216     y 0.9408812     z 1.223993      occ C    1          beq 1.3          
+			site H20    x 0.6128796     y 0.935485      z 1.216173      occ H    1          beq 5            
+			site H21    x 0.4969926     y 0.9249276     z 1.268494      occ H    1          beq 5            
+			site H22    x 0.4866453     y 0.9870927     z 1.216456      occ H    1          beq 5            
+			site C13    x 0.4782072     y 0.8109879     z 1.190519      occ C    1          beq 1.3          
+			site H23    x 0.5795906     y 0.8032402     z 1.179938      occ H    1          beq 5            
+			site H24    x 0.4323301     y 0.7775255     z 1.160748      occ H    1          beq 5            
+			site H25    x 0.4678498     y 0.7968551     z 1.234056      occ H    1          beq 5            
+			site C14    x 0.3984419     y 0.8557218     z 1.057121      occ C    1          beq 1.3          
+			site C15    x 0.4214046     y 0.7555676     z 0.9766314     occ C    1          beq 1.3          
+			site H26    x 0.3214367     y 0.7579901     z 0.9776161     occ H    1          beq 5            
+			site C16    x 0.4678034     y 0.7717293     z 0.9067934     occ C    1          beq 1.3          
+			site H27    x 0.5675211     y 0.7783009     z 0.9079691     occ H    1          beq 5            
+			site H28    x 0.4486354     y 0.7311734     z 0.8798541     occ H    1          beq 5            
+			site C17    x 0.4034696     y 0.8387691     z 0.876203      occ C    1          beq 1.3          
+			site C18    x 0.4480322     y 0.9083639     z 0.8935886     occ C    1          beq 1.3          
+			site H29    x 0.5201748     y 0.9146152     z 0.9254166     occ H    1          beq 5            
+			site C19    x 0.3874194     y 0.9684286     z 0.8665266     occ C    1          beq 1.3          
+			site H30    x 0.4178273     y 1.015368      z 0.8814294     occ H    1          beq 5            
+			site C20    x 0.2866706     y 0.9616274     z 0.81985       occ C    1          beq 1.3          
+			site H31    x 0.2521059     y 1.004454      z 0.8018863     occ H    1          beq 5            
+			site C21    x 0.2435703     y 0.8932956     z 0.8002693     occ C    1          beq 1.3          
+			site H32    x 0.180565      y 0.8900049     z 0.7682533     occ H    1          beq 5            
+			site C22    x 0.3035302     y 0.8326582     z 0.8284316     occ C    1          beq 1.3          
+			site H33    x 0.2786824     y 0.7884454     z 0.8148547     occ H    1          beq 5            
+			site C23    x 0.4647594     y 0.6801647     z 0.9991486     occ C    1          beq 1.3          
+			site H34    x 0.559712      y 0.6731833     z 0.9880638     occ H    1          beq 5            
+			site H35    x 0.4572548     y 0.6776124     z 1.04711       occ H    1          beq 5            
+			site C24    x 0.3829852     y 0.6198549     z 0.9694619     occ C    1          beq 1.3          
+			site H36    x 0.3754491     y 0.6278597     z 0.9220019     occ H    1          beq 5            
+			site C25    x 0.4439365     y 0.5438064     z 0.981177      occ C    1          beq 1.3          
+			site H37    x 0.3758435     y 0.5077437     z 0.9682202     occ H    1          beq 5            
+			site C26    x 0.477806      y 0.5291016     z 1.05463       occ C    1          beq 1.3          
+			site H38    x 0.5654786     y 0.5519401     z 1.064785      occ H    1          beq 5            
+			site H39    x 0.4102531     y 0.5531473     z 1.081608      occ H    1          beq 5            
+			site C27    x 0.4848365     y 0.4508554     z 1.075297      occ C    1          beq 1.3          
+			site C28    x 0.6068986     y 0.4152117     z 1.081295      occ C    1          beq 1.3          
+			site H40    x 0.6877986     y 0.4385923     z 1.068317      occ H    1          beq 5            
+			site C29    x 0.6136906     y 0.34421       z 1.105075      occ C    1          beq 1.3          
+			site H41    x 0.6988547     y 0.3210911     z 1.108285      occ H    1          beq 5            
+			site C30    x 0.4960187     y 0.3085571     z 1.121971      occ C    1          beq 1.3          
+			site H42    x 0.5010824     y 0.2614629     z 1.138095      occ H    1          beq 5            
+			site C31    x 0.3710564     y 0.343157      z 1.114242      occ C    1          beq 1.3          
+			site H43    x 0.2922564     y 0.3185114     z 1.124635      occ H    1          beq 5            
+			site C32    x 0.3664093     y 0.413456      z 1.091718      occ C    1          beq 1.3          
+			site H44    x 0.2844165     y 0.4363124     z 1.088204      occ H    1          beq 5            
+			site C33    x 0.5667108     y 0.5039184     z 0.8795644     occ C    1          beq 1.3          
+			site C34    x 0.4496296     y 0.4471229     z 0.7949874     occ C    1          beq 1.3          
+			site H45    x 0.5184674     y 0.4085175     z 0.793052      occ H    1          beq 5            
+			site H46    x 0.4741092     y 0.4831219     z 0.7625332     occ H    1          beq 5            
+			site C35    x 0.3117104     y 0.4207774     z 0.7786883     occ C    1          beq 1.3          
+			site C36    x 0.2108693     y 0.4004233     z 0.820299      occ C    1          beq 1.3          
+			site H47    x 0.2243592     y 0.3989179     z 0.8659426     occ H    1          beq 5            
+			site C37    x 0.1080985     y 0.3744032     z 0.7284546     occ C    1          beq 1.3          
+			site H48    x 0.04173718    y 0.3552265     z 0.7004423     occ H    1          beq 5                    
+
+		TCHZ_Peak_Type(, 0.00042`_0.00043,, 0.00101`_0.00041,,-0.00108`_0.00008,, 0,, 0.05026`_0.00043,, 0)
+		}
+	}
+C_matrix_normalized
+{
+                             1   2   3   4   5   6   7   8   9  10  11  12  13  14  15  16  17  18  19  20  21  22  23  24  25  26  27  28  29  30  31  32  33  34  35  36
+CS_L_Form1_top_19973360  1:  100  -4  18 -18  18 -20  25 -28 -18  -2 -83  29   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+CS_L_Form2_top_19973360  2:   -4 100  27 -26  23 -24  31 -34 -26  16   1 -71   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+bkg170291616           3:   18  27 100-100 100-100  98 -92-100  11 -22 -40   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+bkg170292896           4:  -18 -26-100 100-100 100 -98  92 100 -10  22  38   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+bkg170293152           5:   18  23 100-100 100-100  97 -91-100  10 -22 -34   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+bkg170294176           6:  -20 -24-100 100-100 100 -98  92 100 -10  24  34   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+bkg170294432           7:   25  31  98 -98  97 -98 100 -94 -98  10 -30 -42   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+bkg170292128           8:  -28 -34 -92  92 -91  92 -94 100  92  -8  34  42   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+m61efd4c7_190          9:  -18 -26-100 100-100 100 -98  92 100 -11  21  38   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+m61efd4c7_19b         10:   -2  16  11 -10  10 -10  10  -8 -11 100   0 -10   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+scale20112640_        11:  -83   1 -22  22 -22  24 -30  34  21   0 100 -33   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+scale20112832_        12:   29 -71 -40  38 -34  34 -42  42  38 -10 -33 100   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+CS_L_Form1_top_19976144 13:    0   0   0   0   0   0   0   0   0   0   0   0 100 -13 -23  22 -20  18 -16  11  23  -6 -67  42   0   0   0   0   0   0   0   0   0   0   0   0
+CS_L_Form2_top_19976144 14:    0   0   0   0   0   0   0   0   0   0   0   0 -13 100 -22  24 -30  33 -33  14  25   8  14 -70   0   0   0   0   0   0   0   0   0   0   0   0
+bkg170291360          15:    0   0   0   0   0   0   0   0   0   0   0   0 -23 -22 100-100  99 -98  96 -85-100   4  26  16   0   0   0   0   0   0   0   0   0   0   0   0
+bkg170294944          16:    0   0   0   0   0   0   0   0   0   0   0   0  22  24-100 100 -99  98 -96  85 100  -4 -26 -17   0   0   0   0   0   0   0   0   0   0   0   0
+bkg170293408          17:    0   0   0   0   0   0   0   0   0   0   0   0 -20 -30  99 -99 100 -99  97 -83-100   3  24  26   0   0   0   0   0   0   0   0   0   0   0   0
+bkg170292384          18:    0   0   0   0   0   0   0   0   0   0   0   0  18  33 -98  98 -99 100 -97  84  98  -3 -21 -31   0   0   0   0   0   0   0   0   0   0   0   0
+bkg170292640          19:    0   0   0   0   0   0   0   0   0   0   0   0 -16 -33  96 -96  97 -97 100 -81 -96   3  18  31   0   0   0   0   0   0   0   0   0   0   0   0
+bkg170293920          20:    0   0   0   0   0   0   0   0   0   0   0   0  11  14 -85  85 -83  84 -81 100  84  -3 -12 -10   0   0   0   0   0   0   0   0   0   0   0   0
+m61efd4c7_191         21:    0   0   0   0   0   0   0   0   0   0   0   0  23  25-100 100-100  98 -96  84 100  -4 -26 -19   0   0   0   0   0   0   0   0   0   0   0   0
+m61efd4c7_19c         22:    0   0   0   0   0   0   0   0   0   0   0   0  -6   8   4  -4   3  -3   3  -3  -4 100   6  -7   0   0   0   0   0   0   0   0   0   0   0   0
+scale20113216_        23:    0   0   0   0   0   0   0   0   0   0   0   0 -67  14  26 -26  24 -21  18 -12 -26   6 100 -48   0   0   0   0   0   0   0   0   0   0   0   0
+scale20113408_        24:    0   0   0   0   0   0   0   0   0   0   0   0  42 -70  16 -17  26 -31  31 -10 -19  -7 -48 100   0   0   0   0   0   0   0   0   0   0   0   0
+CS_L_Form1_top_19978304 25:    0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0 100 -17 -14  13 -12  10  -7  -3  14  -6 -72  46
+CS_L_Form2_top_19978304 26:    0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0 -17 100  -0   2  -9  11  -4 -15   3  11  19 -71
+bkg28990400           27:    0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0 -14  -0 100-100  99 -98  97 -82-100   8  15 -12
+bkg28993472           28:    0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0  13   2-100 100 -99  99 -97  82 100  -8 -14  10
+bkg28992704           29:    0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0 -12  -9  99 -99 100 -99  97 -78-100   7  13  -2
+bkg28987840           30:    0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0  10  11 -98  99 -99 100 -96  79  99  -7 -11  -1
+bkg28992448           31:    0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0  -7  -4  97 -97  97 -96 100 -81 -97   8   8  -6
+bkg28994240           32:    0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0  -3 -15 -82  82 -78  79 -81 100  81  -7   5  24
+m61efd4c7_192         33:    0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0  14   3-100 100-100  99 -97  81 100  -8 -15   9
+m61efd4c7_19d         34:    0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0  -6  11   8  -8   7  -7   8  -7  -8 100   7 -10
+scale20113792_        35:    0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0 -72  19  15 -14  13 -11   8   5 -15   7 100 -54
+scale20113984_        36:    0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0  46 -71 -12  10  -2  -1  -6  24   9 -10 -54 100
+}

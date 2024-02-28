@@ -1,0 +1,280 @@
+1930_RVR_10ul_mill_EtOAc.raw	Rwp:	      12.05
+	chisq:	       3.91
+     Form I	       95.6		+/-	        0.9
+    Form II	        4.4		+/-	        0.9
+1929_RVR_20ul_mill_EtOAc.raw	Rwp:	      11.05
+	chisq:	       3.67
+     Form I	       74.7		+/-	        0.6
+    Form II	       25.3		+/-	        0.6
+1928_RVR_30ul_mill_EtOAc.raw	Rwp:	      11.55
+	chisq:	       3.83
+     Form I	        2.4		+/-	        0.6
+    Form II	       97.6		+/-	        0.6
+1940_RVR_40ul_mill_EtOAc.raw	Rwp:	      11.96
+	chisq:	       4.01
+     Form I	       11.2		+/-	        0.4
+    Form II	       88.8		+/-	        0.4
+1965_RVR_50ul_mill_EtOAc_081020_2.raw	Rwp:	      11.09
+	chisq:	       3.17
+     Form I	        7.5		+/-	        0.5
+    Form II	       92.5		+/-	        0.5
+1930_RVR_10ul_mill_EtOAc.raw	Rwp:	      12.15
+	chisq:	       3.94
+     Form I	       96.4		+/-	        1.0
+    Form II	        3.6		+/-	        1.0
+1929_RVR_20ul_mill_EtOAc.raw	Rwp:	      11.06
+	chisq:	       3.68
+     Form I	       74.8		+/-	        0.6
+    Form II	       25.2		+/-	        0.6
+1928_RVR_30ul_mill_EtOAc.raw	Rwp:	      11.51
+	chisq:	       3.81
+     Form I	        1.7		+/-	        0.8
+    Form II	       98.3		+/-	        0.8
+1940_RVR_40ul_mill_EtOAc.raw	Rwp:	      11.96
+	chisq:	       4.01
+     Form I	       10.9		+/-	        0.4
+    Form II	       89.1		+/-	        0.4
+1965_RVR_50ul_mill_EtOAc_081020_2.raw	Rwp:	      11.10
+	chisq:	       3.18
+     Form I	        6.8		+/-	        0.6
+    Form II	       93.2		+/-	        0.6
+1930_RVR_10ul_mill_EtOAc.raw	Rwp:	      12.15
+	chisq:	       3.94
+     Form I	       96.4		+/-	        1.0
+    Form II	        3.6		+/-	        1.0
+1929_RVR_20ul_mill_EtOAc.raw	Rwp:	      11.06
+	chisq:	       3.68
+     Form I	       74.8		+/-	        0.6
+    Form II	       25.2		+/-	        0.6
+1928_RVR_30ul_mill_EtOAc.raw	Rwp:	      11.51
+	chisq:	       3.81
+     Form I	        1.7		+/-	        0.8
+    Form II	       98.3		+/-	        0.8
+1940_RVR_40ul_mill_EtOAc.raw	Rwp:	      11.96
+	chisq:	       4.01
+     Form I	       10.9		+/-	        0.4
+    Form II	       89.1		+/-	        0.4
+1965_RVR_50ul_mill_EtOAc_081020_2.raw	Rwp:	      11.10
+	chisq:	       3.18
+     Form I	        6.8		+/-	        0.6
+    Form II	       93.2		+/-	        0.6
+1930_RVR_10ul_mill_EtOAc.raw	Rwp:	      12.14
+	chisq:	       3.94
+     Form I	       96.0		+/-	        1.2
+    Form II	        4.0		+/-	        1.2
+1929_RVR_20ul_mill_EtOAc.raw	Rwp:	      11.06
+	chisq:	       3.68
+     Form I	       74.8		+/-	        0.6
+    Form II	       25.2		+/-	        0.6
+1928_RVR_30ul_mill_EtOAc.raw	Rwp:	      11.50
+	chisq:	       3.81
+     Form I	        2.1		+/-	        1.1
+    Form II	       97.9		+/-	        1.1
+1940_RVR_40ul_mill_EtOAc.raw	Rwp:	      11.96
+	chisq:	       4.01
+     Form I	       10.9		+/-	        0.4
+    Form II	       89.1		+/-	        0.4
+1965_RVR_50ul_mill_EtOAc_081020_2.raw	Rwp:	      11.10
+	chisq:	       3.18
+     Form I	        6.8		+/-	        0.6
+    Form II	       93.2		+/-	        0.6
+1930_RVR_10ul_mill_EtOAc.raw	Rwp:	      12.14
+	chisq:	       3.94
+     Form I	       94.1		+/-	        1.3
+    Form II	        5.9		+/-	        1.3
+1929_RVR_20ul_mill_EtOAc.raw	Rwp:	      11.05
+	chisq:	       3.67
+     Form I	       74.5		+/-	        0.7
+    Form II	       25.5		+/-	        0.7
+1928_RVR_30ul_mill_EtOAc.raw	Rwp:	      11.50
+	chisq:	       3.81
+     Form I	        2.7		+/-	        1.1
+    Form II	       97.3		+/-	        1.1
+1940_RVR_40ul_mill_EtOAc.raw	Rwp:	      11.94
+	chisq:	       4.01
+     Form I	       11.3		+/-	        0.5
+    Form II	       88.7		+/-	        0.5
+1965_RVR_50ul_mill_EtOAc_081020_2.raw	Rwp:	      11.09
+	chisq:	       3.17
+     Form I	        7.4		+/-	        0.6
+    Form II	       92.6		+/-	        0.6
+1930_RVR_10ul_mill_EtOAc.raw	Rwp:	      12.14
+	chisq:	       3.94
+     Form I	       94.1		+/-	        1.3
+    Form II	        5.9		+/-	        1.3
+1929_RVR_20ul_mill_EtOAc.raw	Rwp:	      11.05
+	chisq:	       3.67
+     Form I	       74.5		+/-	        0.7
+    Form II	       25.5		+/-	        0.7
+1928_RVR_30ul_mill_EtOAc.raw	Rwp:	      11.50
+	chisq:	       3.81
+     Form I	        2.7		+/-	        1.1
+    Form II	       97.3		+/-	        1.1
+1940_RVR_40ul_mill_EtOAc.raw	Rwp:	      11.94
+	chisq:	       4.01
+     Form I	       11.3		+/-	        0.5
+    Form II	       88.7		+/-	        0.5
+1965_RVR_50ul_mill_EtOAc_081020_2.raw	Rwp:	      11.09
+	chisq:	       3.17
+     Form I	        7.4		+/-	        0.6
+    Form II	       92.6		+/-	        0.6
+1930_RVR_10ul_mill_EtOAc.raw	Rwp:	      12.17
+	chisq:	       3.95
+     Form I	       94.2		+/-	        1.3
+    Form II	        5.8		+/-	        1.3
+1929_RVR_20ul_mill_EtOAc.raw	Rwp:	      11.08
+	chisq:	       3.68
+     Form I	       74.5		+/-	        0.7
+    Form II	       25.5		+/-	        0.7
+1928_RVR_30ul_mill_EtOAc.raw	Rwp:	      11.55
+	chisq:	       3.83
+     Form I	        2.7		+/-	        1.1
+    Form II	       97.3		+/-	        1.1
+1940_RVR_40ul_mill_EtOAc.raw	Rwp:	      11.99
+	chisq:	       4.03
+     Form I	       11.3		+/-	        0.5
+    Form II	       88.7		+/-	        0.5
+1965_RVR_50ul_mill_EtOAc_081020_2.raw	Rwp:	      11.16
+	chisq:	       3.19
+     Form I	        7.4		+/-	        0.6
+    Form II	       92.6		+/-	        0.6
+1930_RVR_10ul_mill_EtOAc.raw	Rwp:	      12.19
+	chisq:	       3.95
+     Form I	       95.4		+/-	        1.1
+    Form II	        4.6		+/-	        1.1
+1929_RVR_20ul_mill_EtOAc.raw	Rwp:	      11.08
+	chisq:	       3.68
+     Form I	       74.5		+/-	        0.7
+    Form II	       25.5		+/-	        0.7
+1928_RVR_30ul_mill_EtOAc.raw	Rwp:	      11.56
+	chisq:	       3.83
+     Form I	        2.0		+/-	        0.8
+    Form II	       98.0		+/-	        0.8
+1940_RVR_40ul_mill_EtOAc.raw	Rwp:	      11.99
+	chisq:	       4.03
+     Form I	       11.3		+/-	        0.5
+    Form II	       88.7		+/-	        0.5
+1965_RVR_50ul_mill_EtOAc_081020_2.raw	Rwp:	      11.16
+	chisq:	       3.19
+     Form I	        7.3		+/-	        0.6
+    Form II	       92.7		+/-	        0.6
+1930_RVR_10ul_mill_EtOAc.raw	Rwp:	      12.17
+	chisq:	       3.95
+     Form I	       95.2		+/-	        1.3
+    Form II	        4.8		+/-	        1.3
+1929_RVR_20ul_mill_EtOAc.raw	Rwp:	      11.08
+	chisq:	       3.68
+     Form I	       74.5		+/-	        0.7
+    Form II	       25.5		+/-	        0.7
+1928_RVR_30ul_mill_EtOAc.raw	Rwp:	      11.55
+	chisq:	       3.83
+     Form I	        2.2		+/-	        1.2
+    Form II	       97.8		+/-	        1.2
+1940_RVR_40ul_mill_EtOAc.raw	Rwp:	      12.00
+	chisq:	       4.03
+     Form I	       11.3		+/-	        0.5
+    Form II	       88.7		+/-	        0.5
+1965_RVR_50ul_mill_EtOAc_081020_2.raw	Rwp:	      11.16
+	chisq:	       3.19
+     Form I	        7.3		+/-	        0.6
+    Form II	       92.7		+/-	        0.6
+1930_RVR_10ul_mill_EtOAc.raw
+	Rwp:	      12.17
+	chisq:	       3.95
+     Form I	       95.1		+/-	        1.3
+    Form II	        4.9		+/-	        1.3
+1929_RVR_20ul_mill_EtOAc.raw
+	Rwp:	      11.08
+	chisq:	       3.68
+     Form I	       74.5		+/-	        0.7
+    Form II	       25.5		+/-	        0.7
+1928_RVR_30ul_mill_EtOAc.raw
+	Rwp:	      11.55
+	chisq:	       3.83
+     Form I	        2.3		+/-	        1.2
+    Form II	       97.7		+/-	        1.2
+1940_RVR_40ul_mill_EtOAc.raw
+	Rwp:	      11.99
+	chisq:	       4.03
+     Form I	       11.3		+/-	        0.5
+    Form II	       88.7		+/-	        0.5
+1965_RVR_50ul_mill_EtOAc_081020_2.raw
+	Rwp:	      11.16
+	chisq:	       3.19
+     Form I	        7.3		+/-	        0.6
+    Form II	       92.7		+/-	        0.6
+1930_RVR_10ul_mill_EtOAc.raw
+	Rwp:	      12.17
+	chisq:	       3.95
+     Form I	       94.3		+/-	        1.3
+    Form II	        5.7		+/-	        1.3
+1929_RVR_20ul_mill_EtOAc.raw
+	Rwp:	      11.08
+	chisq:	       3.68
+     Form I	       74.5		+/-	        0.7
+    Form II	       25.5		+/-	        0.7
+1928_RVR_30ul_mill_EtOAc.raw
+	Rwp:	      11.55
+	chisq:	       3.83
+     Form I	        3.1		+/-	        1.3
+    Form II	       96.9		+/-	        1.3
+1940_RVR_40ul_mill_EtOAc.raw
+	Rwp:	      11.99
+	chisq:	       4.03
+     Form I	       11.3		+/-	        0.5
+    Form II	       88.7		+/-	        0.5
+1965_RVR_50ul_mill_EtOAc_081020_2.raw
+	Rwp:	      11.16
+	chisq:	       3.19
+     Form I	        7.3		+/-	        0.6
+    Form II	       92.7		+/-	        0.6
+1930_RVR_10ul_mill_EtOAc.raw
+	Rwp:	      12.05
+	chisq:	       3.91
+     Form I	       95.9		+/-	        1.4
+    Form II	        4.1		+/-	        1.4
+1929_RVR_20ul_mill_EtOAc.raw
+	Rwp:	      10.98
+	chisq:	       3.65
+     Form I	       75.8		+/-	        0.7
+    Form II	       24.2		+/-	        0.7
+1928_RVR_30ul_mill_EtOAc.raw
+	Rwp:	      11.55
+	chisq:	       3.83
+     Form I	        3.3		+/-	        1.4
+    Form II	       96.7		+/-	        1.4
+1940_RVR_40ul_mill_EtOAc.raw
+	Rwp:	      12.00
+	chisq:	       4.03
+     Form I	       11.3		+/-	        0.5
+    Form II	       88.7		+/-	        0.5
+1965_RVR_50ul_mill_EtOAc_081020_2.raw
+	Rwp:	      11.16
+	chisq:	       3.20
+     Form I	        7.4		+/-	        0.6
+    Form II	       92.6		+/-	        0.6
+1930_RVR_10ul_mill_EtOAc.raw
+	Rwp:	      12.06
+	chisq:	       3.91
+     Form I	       96.4		+/-	        1.1
+    Form II	        3.6		+/-	        1.1
+1929_RVR_20ul_mill_EtOAc.raw
+	Rwp:	      10.98
+	chisq:	       3.65
+     Form I	       75.8		+/-	        0.7
+    Form II	       24.2		+/-	        0.7
+1928_RVR_30ul_mill_EtOAc.raw
+	Rwp:	      11.57
+	chisq:	       3.84
+     Form I	        2.4		+/-	        0.8
+    Form II	       97.6		+/-	        0.8
+1940_RVR_40ul_mill_EtOAc.raw
+	Rwp:	      12.00
+	chisq:	       4.03
+     Form I	       11.3		+/-	        0.5
+    Form II	       88.7		+/-	        0.5
+1965_RVR_50ul_mill_EtOAc_081020_2.raw
+	Rwp:	      11.16
+	chisq:	       3.20
+     Form I	        7.4		+/-	        0.6
+    Form II	       92.6		+/-	        0.6

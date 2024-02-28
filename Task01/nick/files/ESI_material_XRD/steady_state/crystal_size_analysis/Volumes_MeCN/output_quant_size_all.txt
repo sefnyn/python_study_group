@@ -1,0 +1,6 @@
+file_name	Rwp	chisq	wtpc_Form1	wtpc_Form1_esd	wtpc_Form2	wtpc_Form2_esd	CS_L_Form1	CS_L_Form1_esd	CS_L_Form2	CS_L_Form2_esd	use_(Y_or_N)	comments	
+1926_RVR_10ul_mill_MeCN.xy	      13.72	      4.141	       94.2	        1.6	        5.8	        1.6	70.053663	1.277720	10.092773	5.165117	Y	not_Form2
+1925_RVR_20ul_mill_MeCN.xy	      13.05	      3.974	       94.8	        1.6	        5.2	        1.6	69.498375	1.250184	10.092773	5.678819	Y	not_Form2
+1947_RVR_30ul_mill_MeCN.xy	      10.90	      3.563	       73.9	        0.6	       26.1	        0.6	68.012706	1.322878	81.779107	4.383469	Y
+1919_RVR_40ul_mill_MeCN.xy	      11.27	      3.706	       37.4	        0.5	       62.6	        0.5	66.536228	2.133390	82.034861	1.861057	Y
+1962_RVR_50ul_mill_MeCN_081020.xy	      14.11	      4.420	       10.3	        0.5	       89.7	        0.5	51.006541	4.987119	97.110476	1.653697	Y

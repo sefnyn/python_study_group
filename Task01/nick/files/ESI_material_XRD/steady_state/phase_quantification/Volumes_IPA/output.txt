@@ -1,0 +1,980 @@
+RVR_IPA_10uL.raw	Rwp:	      11.76
+	chisq:	       3.88
+     Form I	       85.7		+/-	        0.8
+    Form II	       14.3		+/-	        0.8
+RVR_IPA_20uL.raw	Rwp:	      11.23
+	chisq:	       3.93
+     Form I	       56.5		+/-	        0.5
+    Form II	       43.5		+/-	        0.5
+RVR_IPA_30uL.raw	Rwp:	      12.35
+	chisq:	       4.08
+     Form I	        4.1		+/-	        0.5
+    Form II	       95.9		+/-	        0.5
+RVR_IPA_40uL.raw	Rwp:	      11.36
+	chisq:	       3.84
+     Form I	        0.0		+/-	        0.8
+    Form II	      100.0		+/-	        0.8
+RVR_IPA_50uL.raw	Rwp:	      12.41
+	chisq:	       3.64
+     Form I	        1.0		+/-	        0.8
+    Form II	       99.0		+/-	        0.8
+RVR_IPA_10uL.raw	Rwp:	      11.80
+	chisq:	       3.90
+     Form I	       85.7		+/-	        0.8
+    Form II	       14.3		+/-	        0.8
+RVR_IPA_20uL.raw	Rwp:	      11.27
+	chisq:	       3.95
+     Form I	       56.5		+/-	        0.5
+    Form II	       43.5		+/-	        0.5
+RVR_IPA_30uL.raw	Rwp:	      12.41
+	chisq:	       4.10
+     Form I	        4.1		+/-	        0.5
+    Form II	       95.9		+/-	        0.5
+RVR_IPA_40uL.raw	Rwp:	      11.45
+	chisq:	       3.87
+     Form I	        0.0		+/-	        0.9
+    Form II	      100.0		+/-	        0.9
+RVR_IPA_50uL.raw	Rwp:	      12.49
+	chisq:	       3.67
+     Form I	        1.0		+/-	        0.8
+    Form II	       99.0		+/-	        0.8
+RVR_IPA_10uL.raw	Rwp:	      10.97
+	chisq:	       3.63
+     Form I	       85.4		+/-	        0.9
+    Form II	       14.6		+/-	        0.9
+RVR_IPA_20uL.raw	Rwp:	      10.78
+	chisq:	       3.78
+     Form I	       57.4		+/-	        0.6
+    Form II	       42.6		+/-	        0.6
+RVR_IPA_30uL.raw	Rwp:	      12.25
+	chisq:	       4.05
+     Form I	        5.8		+/-	        0.7
+    Form II	       94.2		+/-	        0.7
+RVR_IPA_40uL.raw	Rwp:	      11.45
+	chisq:	       3.87
+     Form I	        0.0		+/-	        0.8
+    Form II	      100.0		+/-	        0.8
+RVR_IPA_50uL.raw	Rwp:	      12.46
+	chisq:	       3.66
+     Form I	        0.0		+/-	        1.0
+    Form II	      100.0		+/-	        1.0
+RVR_IPA_10uL.raw	Rwp:	      13.21
+	chisq:	       4.37
+     Form I	       84.3		+/-	        1.0
+    Form II	       15.7		+/-	        1.0
+RVR_IPA_20uL.raw	Rwp:	      12.90
+	chisq:	       4.52
+     Form I	       57.4		+/-	        0.6
+    Form II	       42.6		+/-	        0.6
+RVR_IPA_30uL.raw	Rwp:	      13.28
+	chisq:	       4.39
+     Form I	        7.1		+/-	        1.0
+    Form II	       92.9		+/-	        1.0
+RVR_IPA_40uL.raw	Rwp:	      12.44
+	chisq:	       4.20
+     Form I	        0.0		+/-	        1.0
+    Form II	      100.0		+/-	        1.0
+RVR_IPA_50uL.raw	Rwp:	      13.70
+	chisq:	       4.03
+     Form I	        0.0		+/-	        1.2
+    Form II	      100.0		+/-	        1.2
+RVR_IPA_10uL.raw	Rwp:	      12.45
+	chisq:	       4.12
+     Form I	       83.0		+/-	        1.0
+    Form II	       17.0		+/-	        1.0
+RVR_IPA_20uL.raw	Rwp:	      12.20
+	chisq:	       4.28
+     Form I	       56.7		+/-	        0.6
+    Form II	       43.3		+/-	        0.6
+RVR_IPA_30uL.raw	Rwp:	      11.50
+	chisq:	       3.81
+     Form I	        6.2		+/-	        0.6
+    Form II	       93.8		+/-	        0.6
+RVR_IPA_40uL.raw	Rwp:	      10.50
+	chisq:	       3.55
+     Form I	        1.5		+/-	        1.4
+    Form II	       98.5		+/-	        1.4
+RVR_IPA_50uL.raw	Rwp:	      11.72
+	chisq:	       3.44
+     Form I	        2.6		+/-	        1.7
+    Form II	       97.4		+/-	        1.7
+RVR_IPA_10uL.raw	Rwp:	      13.21
+	chisq:	       4.37
+     Form I	       84.3		+/-	        1.0
+    Form II	       15.7		+/-	        1.0
+RVR_IPA_20uL.raw	Rwp:	      12.90
+	chisq:	       4.52
+     Form I	       57.5		+/-	        0.6
+    Form II	       42.5		+/-	        0.6
+RVR_IPA_30uL.raw	Rwp:	      13.33
+	chisq:	       4.41
+     Form I	        7.6		+/-	        1.0
+    Form II	       92.4		+/-	        1.0
+RVR_IPA_40uL.raw	Rwp:	      12.30
+	chisq:	       4.16
+     Form I	        0.5		+/-	        1.0
+    Form II	       99.5		+/-	        1.0
+RVR_IPA_50uL.raw	Rwp:	      13.74
+	chisq:	       4.04
+     Form I	        0.8		+/-	        1.2
+    Form II	       99.2		+/-	        1.2
+RVR_IPA_10uL.raw	Rwp:	      13.21
+	chisq:	       4.36
+     Form I	       84.3		+/-	        1.0
+    Form II	       15.7		+/-	        1.0
+RVR_IPA_20uL.raw	Rwp:	      12.90
+	chisq:	       4.52
+     Form I	       57.5		+/-	        0.6
+    Form II	       42.5		+/-	        0.6
+RVR_IPA_30uL.raw	Rwp:	      13.28
+	chisq:	       4.39
+     Form I	        7.6		+/-	        1.1
+    Form II	       92.4		+/-	        1.1
+RVR_IPA_40uL.raw	Rwp:	      12.26
+	chisq:	       4.15
+     Form I	        0.7		+/-	        2.6
+    Form II	       99.3		+/-	        2.6
+RVR_IPA_50uL.raw	Rwp:	      13.66
+	chisq:	       4.01
+     Form I	       13.8		+/-	       18.2
+    Form II	       86.2		+/-	       18.2
+RVR_IPA_10uL.raw	Rwp:	      13.21
+	chisq:	       4.37
+     Form I	       84.3		+/-	        1.0
+    Form II	       15.7		+/-	        1.0
+RVR_IPA_20uL.raw	Rwp:	      12.90
+	chisq:	       4.52
+     Form I	       57.5		+/-	        0.6
+    Form II	       42.5		+/-	        0.6
+RVR_IPA_30uL.raw	Rwp:	      13.33
+	chisq:	       4.41
+     Form I	        7.6		+/-	        1.1
+    Form II	       92.4		+/-	        1.1
+RVR_IPA_40uL.raw	Rwp:	      12.30
+	chisq:	       4.16
+     Form I	        0.5		+/-	        1.0
+    Form II	       99.5		+/-	        1.0
+RVR_IPA_50uL.raw	Rwp:	      13.74
+	chisq:	       4.04
+     Form I	        0.8		+/-	        1.2
+    Form II	       99.2		+/-	        1.2
+RVR_IPA_10uL.raw	Rwp:	      13.21
+	chisq:	       4.36
+     Form I	       84.3		+/-	        1.0
+    Form II	       15.7		+/-	        1.0
+RVR_IPA_20uL.raw	Rwp:	      12.90
+	chisq:	       4.52
+     Form I	       57.5		+/-	        0.6
+    Form II	       42.5		+/-	        0.6
+RVR_IPA_30uL.raw	Rwp:	      13.28
+	chisq:	       4.39
+     Form I	        7.6		+/-	        1.1
+    Form II	       92.4		+/-	        1.1
+RVR_IPA_40uL.raw	Rwp:	      12.26
+	chisq:	       4.15
+     Form I	        0.0		+/-	        1.0
+    Form II	      100.0		+/-	        1.0
+RVR_IPA_50uL.raw	Rwp:	      13.70
+	chisq:	       4.03
+     Form I	        0.2		+/-	        1.2
+    Form II	       99.8		+/-	        1.2
+RVR_IPA_10uL.raw	Rwp:	      13.21
+	chisq:	       4.36
+     Form I	       84.3		+/-	        1.1
+    Form II	       15.7		+/-	        1.1
+RVR_IPA_20uL.raw	Rwp:	      12.90
+	chisq:	       4.52
+     Form I	       57.5		+/-	        0.6
+    Form II	       42.5		+/-	        0.6
+RVR_IPA_30uL.raw	Rwp:	      14.72
+	chisq:	       4.87
+     Form I	        8.9		+/-	        1.1
+    Form II	       91.1		+/-	        1.1
+RVR_IPA_40uL.raw	Rwp:	      12.26
+	chisq:	       4.15
+     Form I	        0.0		+/-	        1.0
+    Form II	      100.0		+/-	        1.0
+RVR_IPA_50uL.raw	Rwp:	      13.70
+	chisq:	       4.03
+     Form I	        0.4		+/-	        1.2
+    Form II	       99.6		+/-	        1.2
+RVR_IPA_10uL.raw	Rwp:	      13.21
+	chisq:	       4.36
+     Form I	       84.3		+/-	        1.0
+    Form II	       15.7		+/-	        1.0
+RVR_IPA_20uL.raw	Rwp:	      12.90
+	chisq:	       4.52
+     Form I	       57.5		+/-	        0.6
+    Form II	       42.5		+/-	        0.6
+RVR_IPA_30uL.raw	Rwp:	      13.28
+	chisq:	       4.39
+     Form I	        7.6		+/-	        1.1
+    Form II	       92.4		+/-	        1.1
+RVR_IPA_40uL.raw	Rwp:	      12.26
+	chisq:	       4.15
+     Form I	        0.0		+/-	        1.0
+    Form II	      100.0		+/-	        1.0
+RVR_IPA_50uL.raw	Rwp:	      13.70
+	chisq:	       4.03
+     Form I	        0.2		+/-	        1.2
+    Form II	       99.8		+/-	        1.2
+RVR_IPA_10uL.raw	Rwp:	      12.45
+	chisq:	       4.12
+     Form I	       83.0		+/-	        1.0
+    Form II	       17.0		+/-	        1.0
+RVR_IPA_20uL.raw	Rwp:	      12.20
+	chisq:	       4.28
+     Form I	       56.7		+/-	        0.6
+    Form II	       43.3		+/-	        0.6
+RVR_IPA_30uL.raw	Rwp:	      11.50
+	chisq:	       3.81
+     Form I	        6.3		+/-	        0.6
+    Form II	       93.7		+/-	        0.6
+RVR_IPA_40uL.raw	Rwp:	      10.51
+	chisq:	       3.56
+     Form I	        0.7		+/-	        0.5
+    Form II	       99.3		+/-	        0.5
+RVR_IPA_50uL.raw	Rwp:	      11.71
+	chisq:	       3.44
+     Form I	        2.3		+/-	        1.6
+    Form II	       97.7		+/-	        1.6
+RVR_IPA_10uL.raw	Rwp:	      12.45
+	chisq:	       4.12
+     Form I	       83.0		+/-	        1.0
+    Form II	       17.0		+/-	        1.0
+RVR_IPA_20uL.raw	Rwp:	      12.20
+	chisq:	       4.28
+     Form I	       56.7		+/-	        0.6
+    Form II	       43.3		+/-	        0.6
+RVR_IPA_30uL.raw	Rwp:	      11.50
+	chisq:	       3.81
+     Form I	        6.2		+/-	        0.6
+    Form II	       93.8		+/-	        0.6
+RVR_IPA_40uL.raw	Rwp:	      10.51
+	chisq:	       3.56
+     Form I	        0.7		+/-	        0.5
+    Form II	       99.3		+/-	        0.5
+RVR_IPA_50uL.raw	Rwp:	      11.72
+	chisq:	       3.44
+     Form I	        2.5		+/-	        1.7
+    Form II	       97.5		+/-	        1.7
+RVR_IPA_10uL.raw	Rwp:	      12.45
+	chisq:	       4.12
+     Form I	       83.0		+/-	        1.0
+    Form II	       17.0		+/-	        1.0
+RVR_IPA_20uL.raw	Rwp:	      12.20
+	chisq:	       4.28
+     Form I	       56.7		+/-	        0.6
+    Form II	       43.3		+/-	        0.6
+RVR_IPA_30uL.raw	Rwp:	      11.50
+	chisq:	       3.81
+     Form I	        6.2		+/-	        0.6
+    Form II	       93.8		+/-	        0.6
+RVR_IPA_40uL.raw	Rwp:	      10.51
+	chisq:	       3.56
+     Form I	        0.7		+/-	        0.5
+    Form II	       99.3		+/-	        0.5
+RVR_IPA_50uL.raw	Rwp:	      11.72
+	chisq:	       3.44
+     Form I	        2.5		+/-	        1.7
+    Form II	       97.5		+/-	        1.7
+RVR_IPA_10uL.raw	Rwp:	      12.45
+	chisq:	       4.12
+     Form I	       83.0		+/-	        1.0
+    Form II	       17.0		+/-	        1.0
+RVR_IPA_20uL.raw	Rwp:	      12.20
+	chisq:	       4.28
+     Form I	       56.7		+/-	        0.6
+    Form II	       43.3		+/-	        0.6
+RVR_IPA_30uL.raw	Rwp:	      11.50
+	chisq:	       3.81
+     Form I	        6.2		+/-	        0.6
+    Form II	       93.8		+/-	        0.6
+RVR_IPA_40uL.raw	Rwp:	      10.51
+	chisq:	       3.56
+     Form I	        0.7		+/-	        0.5
+    Form II	       99.3		+/-	        0.5
+RVR_IPA_50uL.raw	Rwp:	      11.72
+	chisq:	       3.44
+     Form I	        2.5		+/-	        1.7
+    Form II	       97.5		+/-	        1.7
+RVR_IPA_10uL.raw	Rwp:	      13.21
+	chisq:	       4.37
+     Form I	       84.3		+/-	        1.0
+    Form II	       15.7		+/-	        1.0
+RVR_IPA_20uL.raw	Rwp:	      12.90
+	chisq:	       4.52
+     Form I	       57.5		+/-	        0.6
+    Form II	       42.5		+/-	        0.6
+RVR_IPA_30uL.raw	Rwp:	      13.28
+	chisq:	       4.39
+     Form I	        7.5		+/-	        1.0
+    Form II	       92.5		+/-	        1.0
+RVR_IPA_40uL.raw	Rwp:	      12.26
+	chisq:	       4.15
+     Form I	        0.0		+/-	        0.2
+    Form II	      100.0		+/-	        0.2
+RVR_IPA_50uL.raw	Rwp:	      13.70
+	chisq:	       4.03
+     Form I	        0.2		+/-	        1.2
+    Form II	       99.8		+/-	        1.2
+RVR_IPA_10uL.raw	Rwp:	      13.21
+	chisq:	       4.37
+     Form I	       84.3		+/-	        1.0
+    Form II	       15.7		+/-	        1.0
+RVR_IPA_20uL.raw	Rwp:	      12.90
+	chisq:	       4.52
+     Form I	       57.5		+/-	        0.6
+    Form II	       42.5		+/-	        0.6
+RVR_IPA_30uL.raw	Rwp:	      13.28
+	chisq:	       4.39
+     Form I	        7.5		+/-	        1.0
+    Form II	       92.5		+/-	        1.0
+RVR_IPA_40uL.raw	Rwp:	      12.26
+	chisq:	       4.15
+     Form I	        0.0		+/-	        0.2
+    Form II	      100.0		+/-	        0.2
+RVR_IPA_50uL.raw	Rwp:	      13.70
+	chisq:	       4.03
+     Form I	        0.2		+/-	        1.2
+    Form II	       99.8		+/-	        1.2
+RVR_IPA_10uL.raw	Rwp:	      13.21
+	chisq:	       4.37
+     Form I	       84.3		+/-	        1.0
+    Form II	       15.7		+/-	        1.0
+RVR_IPA_20uL.raw	Rwp:	      12.90
+	chisq:	       4.52
+     Form I	       57.5		+/-	        0.6
+    Form II	       42.5		+/-	        0.6
+RVR_IPA_30uL.raw	Rwp:	      13.28
+	chisq:	       4.39
+     Form I	        7.5		+/-	        1.0
+    Form II	       92.5		+/-	        1.0
+RVR_IPA_40uL.raw	Rwp:	      12.26
+	chisq:	       4.15
+     Form I	        0.0		+/-	        1.0
+    Form II	      100.0		+/-	        1.0
+RVR_IPA_50uL.raw	Rwp:	      13.70
+	chisq:	       4.03
+     Form I	        0.2		+/-	        1.2
+    Form II	       99.8		+/-	        1.2
+RVR_IPA_10uL.raw	Rwp:	      12.45
+	chisq:	       4.12
+     Form I	       83.0		+/-	        1.0
+    Form II	       17.0		+/-	        1.0
+RVR_IPA_20uL.raw	Rwp:	      12.20
+	chisq:	       4.28
+     Form I	       56.7		+/-	        0.6
+    Form II	       43.3		+/-	        0.6
+RVR_IPA_30uL.raw	Rwp:	      11.50
+	chisq:	       3.81
+     Form I	        6.2		+/-	        0.6
+    Form II	       93.8		+/-	        0.6
+RVR_IPA_40uL.raw	Rwp:	      10.51
+	chisq:	       3.56
+     Form I	        0.7		+/-	        0.5
+    Form II	       99.3		+/-	        0.5
+RVR_IPA_50uL.raw	Rwp:	      11.72
+	chisq:	       3.44
+     Form I	        2.4		+/-	        1.6
+    Form II	       97.6		+/-	        1.6
+RVR_IPA_10uL.raw	Rwp:	      12.43
+	chisq:	       4.13
+     Form I	       84.8		+/-	        1.0
+    Form II	       15.2		+/-	        1.0
+RVR_IPA_20uL.raw	Rwp:	      12.21
+	chisq:	       4.31
+     Form I	       57.3		+/-	        0.6
+    Form II	       42.7		+/-	        0.6
+RVR_IPA_30uL.raw	Rwp:	      11.45
+	chisq:	       3.81
+     Form I	        6.4		+/-	        0.7
+    Form II	       93.6		+/-	        0.7
+RVR_IPA_40uL.raw	Rwp:	      10.52
+	chisq:	       3.58
+     Form I	        0.7		+/-	        0.5
+    Form II	       99.3		+/-	        0.5
+RVR_IPA_50uL.raw	Rwp:	      11.56
+	chisq:	       3.40
+     Form I	        4.4		+/-	        1.8
+    Form II	       95.6		+/-	        1.8
+RVR_IPA_10uL.raw	Rwp:	      13.21
+	chisq:	       4.38
+     Form I	       85.9		+/-	        1.1
+    Form II	       14.1		+/-	        1.1
+RVR_IPA_20uL.raw	Rwp:	      12.93
+	chisq:	       4.56
+     Form I	       58.0		+/-	        0.7
+    Form II	       42.0		+/-	        0.7
+RVR_IPA_30uL.raw	Rwp:	      13.42
+	chisq:	       4.46
+     Form I	        7.5		+/-	        1.1
+    Form II	       92.5		+/-	        1.1
+RVR_IPA_40uL.raw	Rwp:	      12.38
+	chisq:	       4.21
+     Form I	        0.0		+/-	        0.2
+    Form II	      100.0		+/-	        0.2
+RVR_IPA_50uL.raw	Rwp:	      13.78
+	chisq:	       4.06
+     Form I	        1.2		+/-	        1.2
+    Form II	       98.8		+/-	        1.2
+RVR_IPA_10uL.raw	Rwp:	      12.43
+	chisq:	       4.13
+     Form I	       84.8		+/-	        1.0
+    Form II	       15.2		+/-	        1.0
+RVR_IPA_20uL.raw	Rwp:	      12.21
+	chisq:	       4.31
+     Form I	       57.3		+/-	        0.6
+    Form II	       42.7		+/-	        0.6
+RVR_IPA_30uL.raw	Rwp:	      11.45
+	chisq:	       3.81
+     Form I	        6.4		+/-	        0.7
+    Form II	       93.6		+/-	        0.7
+RVR_IPA_40uL.raw	Rwp:	      10.52
+	chisq:	       3.58
+     Form I	        0.7		+/-	        0.5
+    Form II	       99.3		+/-	        0.5
+RVR_IPA_50uL.raw	Rwp:	      11.55
+	chisq:	       3.40
+     Form I	        4.2		+/-	        1.8
+    Form II	       95.8		+/-	        1.8
+RVR_IPA_10uL.raw	Rwp:	      12.43
+	chisq:	       4.13
+     Form I	       84.8		+/-	        1.0
+    Form II	       15.2		+/-	        1.0
+RVR_IPA_20uL.raw	Rwp:	      12.21
+	chisq:	       4.31
+     Form I	       57.3		+/-	        0.6
+    Form II	       42.7		+/-	        0.6
+RVR_IPA_30uL.raw	Rwp:	      11.45
+	chisq:	       3.81
+     Form I	        6.4		+/-	        0.7
+    Form II	       93.6		+/-	        0.7
+RVR_IPA_40uL.raw	Rwp:	      10.52
+	chisq:	       3.58
+     Form I	        0.7		+/-	        0.5
+    Form II	       99.3		+/-	        0.5
+RVR_IPA_50uL.raw	Rwp:	      11.55
+	chisq:	       3.40
+     Form I	        4.2		+/-	        1.8
+    Form II	       95.8		+/-	        1.8
+RVR_IPA_10uL.raw	Rwp:	      12.43
+	chisq:	       4.13
+     Form I	       84.8		+/-	        1.0
+    Form II	       15.2		+/-	        1.0
+RVR_IPA_20uL.raw	Rwp:	      12.21
+	chisq:	       4.31
+     Form I	       57.3		+/-	        0.6
+    Form II	       42.7		+/-	        0.6
+RVR_IPA_30uL.raw	Rwp:	      11.45
+	chisq:	       3.81
+     Form I	        6.4		+/-	        0.7
+    Form II	       93.6		+/-	        0.7
+RVR_IPA_40uL.raw	Rwp:	      10.52
+	chisq:	       3.58
+     Form I	        0.7		+/-	        0.5
+    Form II	       99.3		+/-	        0.5
+RVR_IPA_50uL.raw	Rwp:	      11.56
+	chisq:	       3.41
+     Form I	        4.0		+/-	        1.6
+    Form II	       96.0		+/-	        1.6
+RVR_IPA_10uL.raw	Rwp:	      12.43
+	chisq:	       4.13
+     Form I	       84.8		+/-	        1.0
+    Form II	       15.2		+/-	        1.0
+RVR_IPA_20uL.raw	Rwp:	      12.21
+	chisq:	       4.31
+     Form I	       57.3		+/-	        0.6
+    Form II	       42.7		+/-	        0.6
+RVR_IPA_30uL.raw	Rwp:	      11.45
+	chisq:	       3.81
+     Form I	        6.4		+/-	        0.7
+    Form II	       93.6		+/-	        0.7
+RVR_IPA_40uL.raw	Rwp:	      10.52
+	chisq:	       3.58
+     Form I	        0.7		+/-	        0.5
+    Form II	       99.3		+/-	        0.5
+RVR_IPA_50uL.raw	Rwp:	      11.56
+	chisq:	       3.41
+     Form I	        3.8		+/-	        1.6
+    Form II	       96.2		+/-	        1.6
+RVR_IPA_10uL.raw	Rwp:	      12.43
+	chisq:	       4.13
+     Form I	       84.8		+/-	        1.0
+    Form II	       15.2		+/-	        1.0
+RVR_IPA_20uL.raw	Rwp:	      12.21
+	chisq:	       4.31
+     Form I	       57.3		+/-	        0.6
+    Form II	       42.7		+/-	        0.6
+RVR_IPA_30uL.raw	Rwp:	      11.45
+	chisq:	       3.81
+     Form I	        6.4		+/-	        0.7
+    Form II	       93.6		+/-	        0.7
+RVR_IPA_40uL.raw	Rwp:	      10.52
+	chisq:	       3.58
+     Form I	        0.7		+/-	        0.5
+    Form II	       99.3		+/-	        0.5
+RVR_IPA_50uL.raw	Rwp:	      11.56
+	chisq:	       3.41
+     Form I	        3.8		+/-	        1.6
+    Form II	       96.2		+/-	        1.6
+RVR_IPA_10uL.raw	Rwp:	      12.43
+	chisq:	       4.13
+     Form I	       84.8		+/-	        1.0
+    Form II	       15.2		+/-	        1.0
+RVR_IPA_20uL.raw	Rwp:	      12.21
+	chisq:	       4.31
+     Form I	       57.3		+/-	        0.6
+    Form II	       42.7		+/-	        0.6
+RVR_IPA_30uL.raw	Rwp:	      11.45
+	chisq:	       3.81
+     Form I	        6.4		+/-	        0.7
+    Form II	       93.6		+/-	        0.7
+RVR_IPA_40uL.raw	Rwp:	      10.52
+	chisq:	       3.58
+     Form I	        0.7		+/-	        0.5
+    Form II	       99.3		+/-	        0.5
+RVR_IPA_50uL.raw	Rwp:	      11.56
+	chisq:	       3.41
+     Form I	        3.7		+/-	        1.6
+    Form II	       96.3		+/-	        1.6
+RVR_IPA_10uL.raw	Rwp:	      12.43
+	chisq:	       4.13
+     Form I	       84.8		+/-	        1.0
+    Form II	       15.2		+/-	        1.0
+RVR_IPA_20uL.raw	Rwp:	      12.21
+	chisq:	       4.31
+     Form I	       57.3		+/-	        0.6
+    Form II	       42.7		+/-	        0.6
+RVR_IPA_30uL.raw	Rwp:	      11.45
+	chisq:	       3.81
+     Form I	        6.4		+/-	        0.7
+    Form II	       93.6		+/-	        0.7
+RVR_IPA_40uL.raw	Rwp:	      10.52
+	chisq:	       3.58
+     Form I	        0.7		+/-	        0.5
+    Form II	       99.3		+/-	        0.5
+RVR_IPA_50uL.raw	Rwp:	      11.56
+	chisq:	       3.41
+     Form I	        3.7		+/-	        1.6
+    Form II	       96.3		+/-	        1.6
+RVR_IPA_10uL.raw	Rwp:	      12.43
+	chisq:	       4.13
+     Form I	       84.8		+/-	        1.0
+    Form II	       15.2		+/-	        1.0
+RVR_IPA_20uL.raw	Rwp:	      12.21
+	chisq:	       4.31
+     Form I	       57.3		+/-	        0.6
+    Form II	       42.7		+/-	        0.6
+RVR_IPA_30uL.raw	Rwp:	      11.45
+	chisq:	       3.81
+     Form I	        6.4		+/-	        0.7
+    Form II	       93.6		+/-	        0.7
+RVR_IPA_40uL.raw	Rwp:	      10.51
+	chisq:	       3.58
+     Form I	        1.2		+/-	        1.4
+    Form II	       98.8		+/-	        1.4
+RVR_IPA_50uL.raw	Rwp:	      11.56
+	chisq:	       3.41
+     Form I	        3.3		+/-	        1.6
+    Form II	       96.7		+/-	        1.6
+RVR_IPA_10uL.raw	Rwp:	      12.43
+	chisq:	       4.13
+     Form I	       84.8		+/-	        1.0
+    Form II	       15.2		+/-	        1.0
+RVR_IPA_20uL.raw	Rwp:	      12.21
+	chisq:	       4.31
+     Form I	       57.3		+/-	        0.6
+    Form II	       42.7		+/-	        0.6
+RVR_IPA_30uL.raw	Rwp:	      11.45
+	chisq:	       3.81
+     Form I	        6.4		+/-	        0.7
+    Form II	       93.6		+/-	        0.7
+RVR_IPA_40uL.raw	Rwp:	      10.51
+	chisq:	       3.58
+     Form I	        1.3		+/-	        1.4
+    Form II	       98.7		+/-	        1.4
+RVR_IPA_50uL.raw	Rwp:	      11.55
+	chisq:	       3.40
+     Form I	        3.4		+/-	        1.8
+    Form II	       96.6		+/-	        1.8
+RVR_IPA_10uL.raw	Rwp:	      11.67
+	chisq:	       3.88
+     Form I	       86.6		+/-	        1.0
+    Form II	       13.4		+/-	        1.0
+RVR_IPA_20uL.raw	Rwp:	      11.92
+	chisq:	       4.21
+     Form I	       58.9		+/-	        0.7
+    Form II	       41.1		+/-	        0.7
+RVR_IPA_30uL.raw	Rwp:	      11.46
+	chisq:	       3.81
+     Form I	        6.4		+/-	        0.7
+    Form II	       93.6		+/-	        0.7
+RVR_IPA_40uL.raw	Rwp:	      10.52
+	chisq:	       3.58
+     Form I	        1.6		+/-	        1.4
+    Form II	       98.4		+/-	        1.4
+RVR_IPA_50uL.raw	Rwp:	      11.56
+	chisq:	       3.41
+     Form I	        3.9		+/-	        1.8
+    Form II	       96.1		+/-	        1.8
+RVR_IPA_10uL.raw	Rwp:	      12.74
+	chisq:	       4.23
+     Form I	       87.9		+/-	        1.1
+    Form II	       12.1		+/-	        1.1
+RVR_IPA_20uL.raw	Rwp:	      12.83
+	chisq:	       4.53
+     Form I	       59.3		+/-	        0.8
+    Form II	       40.7		+/-	        0.8
+RVR_IPA_30uL.raw	Rwp:	      13.48
+	chisq:	       4.48
+     Form I	        7.5		+/-	        1.1
+    Form II	       92.5		+/-	        1.1
+RVR_IPA_40uL.raw	Rwp:	      12.41
+	chisq:	       4.22
+     Form I	        0.0		+/-	        1.1
+    Form II	      100.0		+/-	        1.1
+RVR_IPA_50uL.raw	Rwp:	      13.85
+	chisq:	       4.08
+     Form I	        0.7		+/-	        1.3
+    Form II	       99.3		+/-	        1.3
+RVR_IPA_10uL.raw	Rwp:	      12.74
+	chisq:	       4.23
+     Form I	       87.9		+/-	        1.1
+    Form II	       12.1		+/-	        1.1
+RVR_IPA_20uL.raw	Rwp:	      12.83
+	chisq:	       4.53
+     Form I	       59.3		+/-	        0.8
+    Form II	       40.7		+/-	        0.8
+RVR_IPA_30uL.raw	Rwp:	      13.48
+	chisq:	       4.48
+     Form I	        7.5		+/-	        1.1
+    Form II	       92.5		+/-	        1.1
+RVR_IPA_40uL.raw	Rwp:	      12.41
+	chisq:	       4.22
+     Form I	        0.0		+/-	        1.1
+    Form II	      100.0		+/-	        1.1
+RVR_IPA_50uL.raw	Rwp:	      13.85
+	chisq:	       4.08
+     Form I	        0.7		+/-	        1.3
+    Form II	       99.3		+/-	        1.3
+RVR_IPA_10uL.raw	Rwp:	      12.74
+	chisq:	       4.23
+     Form I	       87.9		+/-	        1.1
+    Form II	       12.1		+/-	        1.1
+RVR_IPA_20uL.raw	Rwp:	      12.83
+	chisq:	       4.53
+     Form I	       59.3		+/-	        0.8
+    Form II	       40.7		+/-	        0.8
+RVR_IPA_30uL.raw	Rwp:	      13.48
+	chisq:	       4.48
+     Form I	        7.5		+/-	        1.1
+    Form II	       92.5		+/-	        1.1
+RVR_IPA_40uL.raw	Rwp:	      12.41
+	chisq:	       4.22
+     Form I	        0.0		+/-	        1.1
+    Form II	      100.0		+/-	        1.1
+RVR_IPA_50uL.raw	Rwp:	      13.85
+	chisq:	       4.08
+     Form I	        0.7		+/-	        1.3
+    Form II	       99.3		+/-	        1.3
+RVR_IPA_10uL.raw	Rwp:	      12.74
+	chisq:	       4.23
+     Form I	       87.9		+/-	        1.1
+    Form II	       12.1		+/-	        1.1
+RVR_IPA_20uL.raw	Rwp:	      12.83
+	chisq:	       4.53
+     Form I	       59.3		+/-	        0.8
+    Form II	       40.7		+/-	        0.8
+RVR_IPA_30uL.raw	Rwp:	      13.48
+	chisq:	       4.48
+     Form I	        7.5		+/-	        1.1
+    Form II	       92.5		+/-	        1.1
+RVR_IPA_40uL.raw	Rwp:	      12.41
+	chisq:	       4.22
+     Form I	        0.0		+/-	        1.1
+    Form II	      100.0		+/-	        1.1
+RVR_IPA_50uL.raw	Rwp:	      13.85
+	chisq:	       4.08
+     Form I	        0.7		+/-	        1.3
+    Form II	       99.3		+/-	        1.3
+RVR_IPA_10uL.raw	Rwp:	      11.67
+	chisq:	       3.88
+     Form I	       86.8		+/-	        1.0
+    Form II	       13.2		+/-	        1.0
+RVR_IPA_20uL.raw	Rwp:	      11.92
+	chisq:	       4.21
+     Form I	       59.0		+/-	        0.7
+    Form II	       41.0		+/-	        0.7
+RVR_IPA_30uL.raw	Rwp:	      11.46
+	chisq:	       3.81
+     Form I	        6.5		+/-	        0.7
+    Form II	       93.5		+/-	        0.7
+RVR_IPA_40uL.raw	Rwp:	      10.52
+	chisq:	       3.58
+     Form I	        1.0		+/-	        1.2
+    Form II	       99.0		+/-	        1.2
+RVR_IPA_50uL.raw	Rwp:	      11.56
+	chisq:	       3.41
+     Form I	        3.8		+/-	        1.8
+    Form II	       96.2		+/-	        1.8
+RVR_IPA_10uL.raw	Rwp:	      11.67
+	chisq:	       3.88
+     Form I	       86.8		+/-	        1.0
+    Form II	       13.2		+/-	        1.0
+RVR_IPA_20uL.raw	Rwp:	      11.92
+	chisq:	       4.21
+     Form I	       59.0		+/-	        0.7
+    Form II	       41.0		+/-	        0.7
+RVR_IPA_30uL.raw	Rwp:	      11.46
+	chisq:	       3.81
+     Form I	        6.5		+/-	        0.7
+    Form II	       93.5		+/-	        0.7
+RVR_IPA_40uL.raw	Rwp:	      10.52
+	chisq:	       3.58
+     Form I	        1.0		+/-	        1.2
+    Form II	       99.0		+/-	        1.2
+RVR_IPA_50uL.raw	Rwp:	      11.56
+	chisq:	       3.41
+     Form I	        3.8		+/-	        1.8
+    Form II	       96.2		+/-	        1.8
+RVR_IPA_10uL.raw	Rwp:	      11.67
+	chisq:	       3.88
+     Form I	       86.8		+/-	        1.0
+    Form II	       13.2		+/-	        1.0
+RVR_IPA_20uL.raw	Rwp:	      11.92
+	chisq:	       4.21
+     Form I	       59.0		+/-	        0.7
+    Form II	       41.0		+/-	        0.7
+RVR_IPA_30uL.raw	Rwp:	      11.46
+	chisq:	       3.81
+     Form I	        6.5		+/-	        0.7
+    Form II	       93.5		+/-	        0.7
+RVR_IPA_40uL.raw	Rwp:	      10.52
+	chisq:	       3.58
+     Form I	        1.0		+/-	        1.2
+    Form II	       99.0		+/-	        1.2
+RVR_IPA_50uL.raw	Rwp:	      11.56
+	chisq:	       3.41
+     Form I	        3.8		+/-	        1.8
+    Form II	       96.2		+/-	        1.8
+RVR_IPA_10uL.raw	Rwp:	      12.74
+	chisq:	       4.23
+     Form I	       87.9		+/-	        1.1
+    Form II	       12.1		+/-	        1.1
+RVR_IPA_20uL.raw	Rwp:	      12.83
+	chisq:	       4.53
+     Form I	       59.3		+/-	        0.8
+    Form II	       40.7		+/-	        0.8
+RVR_IPA_30uL.raw	Rwp:	      13.48
+	chisq:	       4.48
+     Form I	        7.5		+/-	        1.1
+    Form II	       92.5		+/-	        1.1
+RVR_IPA_40uL.raw	Rwp:	      12.41
+	chisq:	       4.22
+     Form I	        0.0		+/-	        1.1
+    Form II	      100.0		+/-	        1.1
+RVR_IPA_50uL.raw	Rwp:	      13.85
+	chisq:	       4.08
+     Form I	        0.7		+/-	        1.3
+    Form II	       99.3		+/-	        1.3
+RVR_IPA_10uL.raw	Rwp:	      12.74
+	chisq:	       4.23
+     Form I	       88.0		+/-	        1.1
+    Form II	       12.0		+/-	        1.1
+RVR_IPA_20uL.raw	Rwp:	      12.83
+	chisq:	       4.53
+     Form I	       59.3		+/-	        0.8
+    Form II	       40.7		+/-	        0.8
+RVR_IPA_30uL.raw	Rwp:	      13.39
+	chisq:	       4.45
+     Form I	        7.6		+/-	        1.1
+    Form II	       92.4		+/-	        1.1
+RVR_IPA_40uL.raw	Rwp:	      12.36
+	chisq:	       4.21
+     Form I	        0.0		+/-	        1.1
+    Form II	      100.0		+/-	        1.1
+RVR_IPA_50uL.raw	Rwp:	      13.76
+	chisq:	       4.05
+     Form I	        0.6		+/-	        1.2
+    Form II	       99.4		+/-	        1.2
+RVR_IPA_10uL.raw	Rwp:	      12.74
+	chisq:	       4.23
+     Form I	       88.0		+/-	        1.1
+    Form II	       12.0		+/-	        1.1
+RVR_IPA_20uL.raw	Rwp:	      12.83
+	chisq:	       4.53
+     Form I	       59.3		+/-	        0.8
+    Form II	       40.7		+/-	        0.8
+RVR_IPA_30uL.raw	Rwp:	      13.38
+	chisq:	       4.45
+     Form I	        7.6		+/-	        1.1
+    Form II	       92.4		+/-	        1.1
+RVR_IPA_40uL.raw	Rwp:	      12.36
+	chisq:	       4.21
+     Form I	        0.0		+/-	        1.1
+    Form II	      100.0		+/-	        1.1
+RVR_IPA_50uL.raw	Rwp:	      13.75
+	chisq:	       4.05
+     Form I	        0.5		+/-	        1.2
+    Form II	       99.5		+/-	        1.2
+RVR_IPA_10uL.raw	Rwp:	      12.74
+	chisq:	       4.23
+     Form I	       88.0		+/-	        1.1
+    Form II	       12.0		+/-	        1.1
+RVR_IPA_20uL.raw	Rwp:	      12.83
+	chisq:	       4.53
+     Form I	       59.3		+/-	        0.8
+    Form II	       40.7		+/-	        0.8
+RVR_IPA_30uL.raw	Rwp:	      13.38
+	chisq:	       4.45
+     Form I	        7.6		+/-	        1.1
+    Form II	       92.4		+/-	        1.1
+RVR_IPA_40uL.raw	Rwp:	      12.36
+	chisq:	       4.21
+     Form I	        0.0		+/-	        1.1
+    Form II	      100.0		+/-	        1.1
+RVR_IPA_50uL.raw	Rwp:	      13.75
+	chisq:	       4.05
+     Form I	        0.5		+/-	        1.2
+    Form II	       99.5		+/-	        1.2
+RVR_IPA_10uL.raw	Rwp:	      12.74
+	chisq:	       4.23
+     Form I	       88.0		+/-	        1.1
+    Form II	       12.0		+/-	        1.1
+RVR_IPA_20uL.raw	Rwp:	      12.83
+	chisq:	       4.53
+     Form I	       59.3		+/-	        0.8
+    Form II	       40.7		+/-	        0.8
+RVR_IPA_30uL.raw	Rwp:	      13.38
+	chisq:	       4.45
+     Form I	        7.6		+/-	        1.1
+    Form II	       92.4		+/-	        1.1
+RVR_IPA_40uL.raw	Rwp:	      12.36
+	chisq:	       4.21
+     Form I	        0.0		+/-	        1.1
+    Form II	      100.0		+/-	        1.1
+RVR_IPA_50uL.raw	Rwp:	      13.75
+	chisq:	       4.05
+     Form I	        0.5		+/-	        1.2
+    Form II	       99.5		+/-	        1.2
+RVR_IPA_10uL.raw	Rwp:	      12.74
+	chisq:	       4.23
+     Form I	       88.0		+/-	        1.1
+    Form II	       12.0		+/-	        1.1
+RVR_IPA_20uL.raw	Rwp:	      12.83
+	chisq:	       4.53
+     Form I	       59.3		+/-	        0.8
+    Form II	       40.7		+/-	        0.8
+RVR_IPA_30uL.raw	Rwp:	      13.38
+	chisq:	       4.45
+     Form I	        7.6		+/-	        1.1
+    Form II	       92.4		+/-	        1.1
+RVR_IPA_40uL.raw	Rwp:	      12.36
+	chisq:	       4.21
+     Form I	        0.1		+/-	        2.5
+    Form II	       99.9		+/-	        2.5
+RVR_IPA_50uL.raw	Rwp:	      13.73
+	chisq:	       4.05
+     Form I	        3.8		+/-	        2.9
+    Form II	       96.2		+/-	        2.9
+RVR_IPA_10uL.raw	Rwp:	      12.74
+	chisq:	       4.23
+     Form I	       87.9		+/-	        1.1
+    Form II	       12.1		+/-	        1.1
+RVR_IPA_20uL.raw	Rwp:	      12.83
+	chisq:	       4.53
+     Form I	       59.3		+/-	        0.8
+    Form II	       40.7		+/-	        0.8
+RVR_IPA_30uL.raw	Rwp:	      13.38
+	chisq:	       4.45
+     Form I	        7.6		+/-	        1.1
+    Form II	       92.4		+/-	        1.1
+RVR_IPA_40uL.raw	Rwp:	      12.36
+	chisq:	       4.21
+     Form I	        0.0		+/-	        1.1
+    Form II	      100.0		+/-	        1.1
+RVR_IPA_50uL.raw	Rwp:	      13.75
+	chisq:	       4.05
+     Form I	        0.9		+/-	        1.2
+    Form II	       99.1		+/-	        1.2
+RVR_IPA_10uL.raw	Rwp:	      12.74
+	chisq:	       4.23
+     Form I	       87.9		+/-	        1.1
+    Form II	       12.1		+/-	        1.1
+RVR_IPA_20uL.raw	Rwp:	      12.83
+	chisq:	       4.53
+     Form I	       59.3		+/-	        0.8
+    Form II	       40.7		+/-	        0.8
+RVR_IPA_30uL.raw	Rwp:	      13.38
+	chisq:	       4.45
+     Form I	        7.6		+/-	        1.1
+    Form II	       92.4		+/-	        1.1
+RVR_IPA_40uL.raw	Rwp:	      12.36
+	chisq:	       4.21
+     Form I	        0.0		+/-	        1.1
+    Form II	      100.0		+/-	        1.1
+RVR_IPA_50uL.raw	Rwp:	      13.75
+	chisq:	       4.05
+     Form I	        0.7		+/-	        1.2
+    Form II	       99.3		+/-	        1.2
+RVR_IPA_10uL.raw	Rwp:	      10.29
+	chisq:	       3.42
+     Form I	       88.9		+/-	        0.9
+    Form II	       11.1		+/-	        0.9
+RVR_IPA_20uL.raw	Rwp:	      10.56
+	chisq:	       3.73
+     Form I	       59.3		+/-	        0.7
+    Form II	       40.7		+/-	        0.7
+RVR_IPA_30uL.raw	Rwp:	      12.29
+	chisq:	       4.09
+     Form I	        5.9		+/-	        0.7
+    Form II	       94.1		+/-	        0.7
+RVR_IPA_40uL.raw	Rwp:	      11.19
+	chisq:	       3.81
+     Form I	        0.0		+/-	        0.9
+    Form II	      100.0		+/-	        0.9
+RVR_IPA_50uL.raw	Rwp:	      12.41
+	chisq:	       3.65
+     Form I	        0.4		+/-	        1.0
+    Form II	       99.6		+/-	        1.0
+RVR_IPA_10uL.raw	Rwp:	      10.34
+	chisq:	       3.43
+     Form I	       88.9		+/-	        0.9
+    Form II	       11.1		+/-	        0.9
+RVR_IPA_20uL.raw	Rwp:	      10.60
+	chisq:	       3.74
+     Form I	       59.3		+/-	        0.7
+    Form II	       40.7		+/-	        0.7
+RVR_IPA_30uL.raw	Rwp:	      12.35
+	chisq:	       4.10
+     Form I	        5.9		+/-	        0.7
+    Form II	       94.1		+/-	        0.7
+RVR_IPA_40uL.raw	Rwp:	      11.28
+	chisq:	       3.84
+     Form I	        0.0		+/-	        0.9
+    Form II	      100.0		+/-	        0.9
+RVR_IPA_50uL.raw	Rwp:	      12.50
+	chisq:	       3.68
+     Form I	        0.4		+/-	        1.1
+    Form II	       99.6		+/-	        1.1
+RVR_IPA_10uL.raw	Rwp:	      10.34
+	chisq:	       3.43
+     Form I	       88.9		+/-	        0.9
+    Form II	       11.1		+/-	        0.9
+RVR_IPA_20uL.raw	Rwp:	      10.60
+	chisq:	       3.74
+     Form I	       59.3		+/-	        0.7
+    Form II	       40.7		+/-	        0.7
+RVR_IPA_30uL.raw	Rwp:	      12.35
+	chisq:	       4.10
+     Form I	        5.9		+/-	        0.7
+    Form II	       94.1		+/-	        0.7
+RVR_IPA_40uL.raw	Rwp:	      11.28
+	chisq:	       3.84
+     Form I	        0.0		+/-	        0.9
+    Form II	      100.0		+/-	        0.9
+RVR_IPA_50uL.raw	Rwp:	      12.50
+	chisq:	       3.68
+     Form I	        0.3		+/-	        1.1
+    Form II	       99.7		+/-	        1.1

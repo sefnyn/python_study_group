@@ -1,0 +1,45 @@
+2034_RVR_20ul_IPA_1m.raw	Rwp:	      11.35
+	chisq:	       3.63
+     Form I	       82.2		+/-	        0.5
+    Form II	       17.8		+/-	        0.5
+2032_RVR_20ul_IPA_5m.raw	Rwp:	      11.35
+	chisq:	       3.96
+     Form I	       75.1		+/-	        0.5
+    Form II	       24.9		+/-	        0.5
+2045_RVR_20ul_IPA_15m.raw	Rwp:	      10.01
+	chisq:	       3.24
+     Form I	       54.0		+/-	        0.5
+    Form II	       46.0		+/-	        0.5
+2030_RVR_20ul_IPA_30m.raw	Rwp:	       9.48
+	chisq:	       3.02
+     Form I	       53.8		+/-	        0.5
+    Form II	       46.2		+/-	        0.5
+RVR_IPA_20ul.raw	Rwp:	      11.13
+	chisq:	       3.90
+     Form I	       56.7		+/-	        0.5
+    Form II	       43.3		+/-	        0.5
+2034_RVR_20ul_IPA_1m.raw
+	Rwp:	      11.17
+	chisq:	       3.58
+     Form I	       83.2		+/-	        0.6
+    Form II	       16.8		+/-	        0.6
+2032_RVR_20ul_IPA_5m.raw
+	Rwp:	      11.34
+	chisq:	       3.96
+     Form I	       76.0		+/-	        0.5
+    Form II	       24.0		+/-	        0.5
+2045_RVR_20ul_IPA_15m.raw
+	Rwp:	      10.06
+	chisq:	       3.26
+     Form I	       53.8		+/-	        0.7
+    Form II	       46.2		+/-	        0.7
+2030_RVR_20ul_IPA_30m.raw
+	Rwp:	       9.44
+	chisq:	       3.01
+     Form I	       54.5		+/-	        0.7
+    Form II	       45.5		+/-	        0.7
+RVR_IPA_20ul.raw
+	Rwp:	      10.57
+	chisq:	       3.71
+     Form I	       59.0		+/-	        0.6
+    Form II	       41.0		+/-	        0.6

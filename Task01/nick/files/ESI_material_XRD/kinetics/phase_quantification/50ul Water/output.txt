@@ -1,0 +1,343 @@
+1791_RVR_II_50ul_Water_45m.raw	Rwp:	       9.71
+	chisq:	       2.85
+     Form I	        1.2		+/-	        1.0
+    Form II	       98.8		+/-	        1.0
+2064_RVR_II_50ul_Water_90m.raw	Rwp:	       9.14
+	chisq:	       2.95
+     Form I	       68.6		+/-	        0.6
+    Form II	       31.4		+/-	        0.6
+2091_RVR_II_50ul_Water_120m.raw	Rwp:	       9.55
+	chisq:	       3.13
+     Form I	       91.3		+/-	        0.9
+    Form II	        8.7		+/-	        0.9
+1791_RVR_II_50ul_Water_45m.raw	Rwp:	      10.42
+	chisq:	       3.06
+     Form I	        2.4		+/-	        1.1
+    Form II	       97.6		+/-	        1.1
+2064_RVR_II_50ul_Water_90m.raw	Rwp:	      10.95
+	chisq:	       3.53
+     Form I	       68.3		+/-	        0.7
+    Form II	       31.7		+/-	        0.7
+2091_RVR_II_50ul_Water_120m.raw	Rwp:	      11.47
+	chisq:	       3.76
+     Form I	       89.7		+/-	        1.0
+    Form II	       10.3		+/-	        1.0
+1791_RVR_II_50ul_Water_45m.raw	Rwp:	       9.68
+	chisq:	       2.84
+     Form I	       15.8		+/-	        7.5
+    Form II	       84.2		+/-	        7.5
+2064_RVR_II_50ul_Water_90m.raw	Rwp:	      10.61
+	chisq:	       3.42
+     Form I	       67.4		+/-	        0.7
+    Form II	       32.6		+/-	        0.7
+2091_RVR_II_50ul_Water_120m.raw	Rwp:	      10.99
+	chisq:	       3.61
+     Form I	       83.5		+/-	        1.1
+    Form II	       16.5		+/-	        1.1
+1791_RVR_II_50ul_Water_45m.raw	Rwp:	      10.34
+	chisq:	       3.03
+     Form I	       21.8		+/-	       14.6
+    Form II	       78.2		+/-	       14.6
+2064_RVR_II_50ul_Water_90m.raw	Rwp:	      10.95
+	chisq:	       3.53
+     Form I	       68.4		+/-	        0.7
+    Form II	       31.6		+/-	        0.7
+2091_RVR_II_50ul_Water_120m.raw	Rwp:	      11.47
+	chisq:	       3.76
+     Form I	       90.1		+/-	        1.0
+    Form II	        9.9		+/-	        1.0
+1791_RVR_II_50ul_Water_45m.raw	Rwp:	      10.34
+	chisq:	       3.04
+     Form I	       24.5		+/-	       11.8
+    Form II	       75.5		+/-	       11.8
+2064_RVR_II_50ul_Water_90m.raw	Rwp:	      10.93
+	chisq:	       3.53
+     Form I	       69.2		+/-	        0.7
+    Form II	       30.8		+/-	        0.7
+2091_RVR_II_50ul_Water_120m.raw	Rwp:	      11.46
+	chisq:	       3.77
+     Form I	       90.5		+/-	        1.0
+    Form II	        9.5		+/-	        1.0
+1791_RVR_II_50ul_Water_45m.raw	Rwp:	      10.33
+	chisq:	       3.04
+     Form I	       17.0		+/-	       33.9
+    Form II	       83.0		+/-	       33.9
+2064_RVR_II_50ul_Water_90m.raw	Rwp:	      10.80
+	chisq:	       3.49
+     Form I	       70.2		+/-	        0.8
+    Form II	       29.8		+/-	        0.8
+2091_RVR_II_50ul_Water_120m.raw	Rwp:	      11.40
+	chisq:	       3.76
+     Form I	       91.6		+/-	        1.1
+    Form II	        8.4		+/-	        1.1
+1791_RVR_II_50ul_Water_45m.raw	Rwp:	       9.65
+	chisq:	       2.84
+     Form I	       17.6		+/-	       35.4
+    Form II	       82.4		+/-	       35.4
+2064_RVR_II_50ul_Water_90m.raw	Rwp:	       8.98
+	chisq:	       2.91
+     Form I	       70.3		+/-	        0.7
+    Form II	       29.7		+/-	        0.7
+2091_RVR_II_50ul_Water_120m.raw	Rwp:	       9.47
+	chisq:	       3.12
+     Form I	       92.9		+/-	        0.9
+    Form II	        7.1		+/-	        0.9
+1791_RVR_II_50ul_Water_45m.raw	Rwp:	       9.66
+	chisq:	       2.84
+     Form I	       17.6		+/-	       35.5
+    Form II	       82.4		+/-	       35.5
+2064_RVR_II_50ul_Water_90m.raw	Rwp:	       8.99
+	chisq:	       2.91
+     Form I	       70.3		+/-	        0.7
+    Form II	       29.7		+/-	        0.7
+2091_RVR_II_50ul_Water_120m.raw	Rwp:	       9.48
+	chisq:	       3.12
+     Form I	       92.9		+/-	        0.9
+    Form II	        7.1		+/-	        0.9
+1791_RVR_II_50ul_Water_45m.raw	Rwp:	       9.68
+	chisq:	       2.85
+     Form I	        0.4		+/-	        0.9
+    Form II	       99.6		+/-	        0.9
+2064_RVR_II_50ul_Water_90m.raw	Rwp:	       8.99
+	chisq:	       2.91
+     Form I	       70.3		+/-	        0.7
+    Form II	       29.7		+/-	        0.7
+2091_RVR_II_50ul_Water_120m.raw	Rwp:	       9.48
+	chisq:	       3.12
+     Form I	       93.1		+/-	        0.9
+    Form II	        6.9		+/-	        0.9
+1791_RVR_II_50ul_Water_45m.raw
+	Rwp:	       9.68
+	chisq:	       2.85
+     Form I	        0.4		+/-	        0.9
+    Form II	       99.6		+/-	        0.9
+2064_RVR_II_50ul_Water_90m.raw
+	Rwp:	       8.99
+	chisq:	       2.91
+     Form I	       70.3		+/-	        0.7
+    Form II	       29.7		+/-	        0.7
+2091_RVR_II_50ul_Water_120m.raw
+	Rwp:	       9.48
+	chisq:	       3.12
+     Form I	       93.1		+/-	        0.9
+    Form II	        6.9		+/-	        0.9
+1791_RVR_II_50ul_Water_45m.raw
+	Rwp:	       9.69
+	chisq:	       2.85
+     Form I	        0.2		+/-	        0.9
+    Form II	       99.8		+/-	        0.9
+2064_RVR_II_50ul_Water_90m.raw
+	Rwp:	       8.99
+	chisq:	       2.91
+     Form I	       70.3		+/-	        0.7
+    Form II	       29.7		+/-	        0.7
+2091_RVR_II_50ul_Water_120m.raw
+	Rwp:	       9.48
+	chisq:	       3.12
+     Form I	       93.0		+/-	        0.9
+    Form II	        7.0		+/-	        0.9
+RVR_II_50ul_Water_150m.raw
+	Rwp:	       9.03
+	chisq:	       3.04
+     Form I	       96.7		+/-	        1.0
+    Form II	        3.3		+/-	        1.0
+1791_RVR_II_50ul_Water_45m.raw
+	Rwp:	       9.68
+	chisq:	       2.85
+     Form I	        0.2		+/-	        0.9
+    Form II	       99.8		+/-	        0.9
+2064_RVR_II_50ul_Water_90m.raw
+	Rwp:	       8.99
+	chisq:	       2.91
+     Form I	       70.3		+/-	        0.7
+    Form II	       29.7		+/-	        0.7
+2091_RVR_II_50ul_Water_120m.raw
+	Rwp:	       9.48
+	chisq:	       3.12
+     Form I	       93.0		+/-	        0.9
+    Form II	        7.0		+/-	        0.9
+RVR_II_50ul_Water_150m.raw
+	Rwp:	       9.03
+	chisq:	       3.04
+     Form I	       96.7		+/-	        1.0
+    Form II	        3.3		+/-	        1.0
+1791_RVR_II_50ul_Water_45m.raw
+	Rwp:	       9.68
+	chisq:	       2.85
+     Form I	        0.2		+/-	        0.9
+    Form II	       99.8		+/-	        0.9
+2064_RVR_II_50ul_Water_90m.raw
+	Rwp:	       8.99
+	chisq:	       2.91
+     Form I	       70.3		+/-	        0.7
+    Form II	       29.7		+/-	        0.7
+2091_RVR_II_50ul_Water_120m.raw
+	Rwp:	       9.49
+	chisq:	       3.13
+     Form I	       94.1		+/-	        0.8
+    Form II	        5.9		+/-	        0.8
+RVR_II_50ul_Water_150m.raw
+	Rwp:	       9.03
+	chisq:	       3.04
+     Form I	       96.6		+/-	        1.0
+    Form II	        3.4		+/-	        1.0
+1791_RVR_II_50ul_Water_45m.raw
+	Rwp:	       9.68
+	chisq:	       2.85
+     Form I	        0.2		+/-	        0.9
+    Form II	       99.8		+/-	        0.9
+2064_RVR_II_50ul_Water_90m.raw
+	Rwp:	       8.99
+	chisq:	       2.91
+     Form I	       70.3		+/-	        0.7
+    Form II	       29.7		+/-	        0.7
+2091_RVR_II_50ul_Water_120m.raw
+	Rwp:	       9.48
+	chisq:	       3.12
+     Form I	       94.1		+/-	        0.9
+    Form II	        5.9		+/-	        0.9
+RVR_II_50ul_Water_150m.raw
+	Rwp:	       9.03
+	chisq:	       3.04
+     Form I	       96.8		+/-	        0.9
+    Form II	        3.2		+/-	        0.9
+1791_RVR_II_50ul_Water_45m.raw
+	Rwp:	       9.68
+	chisq:	       2.85
+     Form I	        0.2		+/-	        0.9
+    Form II	       99.8		+/-	        0.9
+2064_RVR_II_50ul_Water_90m.raw
+	Rwp:	       8.99
+	chisq:	       2.91
+     Form I	       70.3		+/-	        0.7
+    Form II	       29.7		+/-	        0.7
+2091_RVR_II_50ul_Water_120m.raw
+	Rwp:	       9.48
+	chisq:	       3.12
+     Form I	       93.9		+/-	        0.9
+    Form II	        6.1		+/-	        0.9
+RVR_II_50ul_Water_150m.raw
+	Rwp:	       9.04
+	chisq:	       3.04
+     Form I	       97.4		+/-	        0.8
+    Form II	        2.6		+/-	        0.8
+1791_RVR_II_50ul_Water_45m.raw
+	Rwp:	       9.68
+	chisq:	       2.85
+     Form I	        0.2		+/-	        0.9
+    Form II	       99.8		+/-	        0.9
+2064_RVR_II_50ul_Water_90m.raw
+	Rwp:	       8.99
+	chisq:	       2.91
+     Form I	       70.3		+/-	        0.7
+    Form II	       29.7		+/-	        0.7
+2091_RVR_II_50ul_Water_120m.raw
+	Rwp:	       9.48
+	chisq:	       3.12
+     Form I	       93.6		+/-	        0.9
+    Form II	        6.4		+/-	        0.9
+RVR_II_50ul_Water_150m.raw
+	Rwp:	       9.04
+	chisq:	       3.05
+     Form I	       98.7		+/-	        0.3
+    Form II	        1.3		+/-	        0.3
+1791_RVR_II_50ul_Water_45m.raw
+	Rwp:	       9.68
+	chisq:	       2.85
+     Form I	        0.2		+/-	        0.9
+    Form II	       99.8		+/-	        0.9
+2064_RVR_II_50ul_Water_90m.raw
+	Rwp:	       8.99
+	chisq:	       2.91
+     Form I	       70.3		+/-	        0.7
+    Form II	       29.7		+/-	        0.7
+2091_RVR_II_50ul_Water_120m.raw
+	Rwp:	       9.48
+	chisq:	       3.12
+     Form I	       93.5		+/-	        0.9
+    Form II	        6.5		+/-	        0.9
+RVR_II_50ul_Water_150m.raw
+	Rwp:	       9.05
+	chisq:	       3.05
+     Form I	       97.9		+/-	        0.9
+    Form II	        2.1		+/-	        0.9
+1791_RVR_II_50ul_Water_45m.raw
+	Rwp:	       9.68
+	chisq:	       2.85
+     Form I	        0.2		+/-	        0.9
+    Form II	       99.8		+/-	        0.9
+2064_RVR_II_50ul_Water_90m.raw
+	Rwp:	       8.99
+	chisq:	       2.91
+     Form I	       70.3		+/-	        0.7
+    Form II	       29.7		+/-	        0.7
+2091_RVR_II_50ul_Water_120m.raw
+	Rwp:	       9.48
+	chisq:	       3.12
+     Form I	       93.4		+/-	        0.9
+    Form II	        6.6		+/-	        0.9
+RVR_II_50ul_Water_150m.raw
+	Rwp:	       9.04
+	chisq:	       3.04
+     Form I	       98.0		+/-	        0.8
+    Form II	        2.0		+/-	        0.8
+1791_RVR_II_50ul_Water_45m.raw
+	Rwp:	       9.68
+	chisq:	       2.84
+     Form I	        0.2		+/-	        0.9
+    Form II	       99.8		+/-	        0.9
+2064_RVR_II_50ul_Water_90m.raw
+	Rwp:	       8.99
+	chisq:	       2.91
+     Form I	       70.3		+/-	        0.7
+    Form II	       29.7		+/-	        0.7
+2091_RVR_II_50ul_Water_120m.raw
+	Rwp:	       9.48
+	chisq:	       3.12
+     Form I	       93.4		+/-	        0.9
+    Form II	        6.6		+/-	        0.9
+RVR_II_50ul_Water_150m.raw
+	Rwp:	       9.03
+	chisq:	       3.04
+     Form I	       97.9		+/-	        0.8
+    Form II	        2.1		+/-	        0.8
+1791_RVR_II_50ul_Water_45m.raw
+	Rwp:	       9.68
+	chisq:	       2.85
+     Form I	        0.2		+/-	        0.8
+    Form II	       99.8		+/-	        0.8
+2064_RVR_II_50ul_Water_90m.raw
+	Rwp:	       8.99
+	chisq:	       2.91
+     Form I	       70.3		+/-	        0.6
+    Form II	       29.7		+/-	        0.6
+2091_RVR_II_50ul_Water_120m.raw
+	Rwp:	       9.48
+	chisq:	       3.12
+     Form I	       93.1		+/-	        0.9
+    Form II	        6.9		+/-	        0.9
+2117_RVRII_Water_LAG_150m.raw
+	Rwp:	       8.98
+	chisq:	       2.58
+     Form I	      100.0		+/-	        1.2
+    Form II	        0.0		+/-	        1.2
+1791_RVR_II_50ul_Water_45m.raw
+	Rwp:	       9.68
+	chisq:	       2.85
+     Form I	        0.2		+/-	        0.8
+    Form II	       99.8		+/-	        0.8
+2064_RVR_II_50ul_Water_90m.raw
+	Rwp:	       8.99
+	chisq:	       2.91
+     Form I	       70.3		+/-	        0.6
+    Form II	       29.7		+/-	        0.6
+2091_RVR_II_50ul_Water_120m.raw
+	Rwp:	       9.48
+	chisq:	       3.12
+     Form I	       93.1		+/-	        0.9
+    Form II	        6.9		+/-	        0.9
+2117_RVRII_Water_LAG_150m.raw
+	Rwp:	       8.98
+	chisq:	       2.58
+     Form I	      100.0		+/-	        1.2
+    Form II	        0.0		+/-	        1.2
