@@ -13,7 +13,7 @@ See:  <https://git-scm.com/downloads>
   Generate token  
   Copy token  
 
-Now your account can push to a git repo on GitHub.  Use the token as your password.
+Now your account can push to a git repo on GitHub.  Paste the token when asked for your password.
 
 
 
