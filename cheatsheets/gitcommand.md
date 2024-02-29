@@ -21,11 +21,11 @@ Now your account can push to a git repo on GitHub.  Paste the token when asked f
   git clone https://github.com/sefnyn/python_study_group.git
 
 
-## Check status of python_study_group repository:
+## Show status of python_study_group repository:
   cd python_study_group  
   git status 
 
-  Computer might say:  
+  If local and remote repos are the same, computer will say:  
     On branch main  
     Your branch is up to date with 'origin/main'.
 
@@ -35,16 +35,19 @@ Now your account can push to a git repo on GitHub.  Paste the token when asked f
 ## Update your local repo with latest changes on GitHub
   git pull
 
-  Computer might say:  
+  Computer will say:  
     Already up to date.
+
+  Or it will try to update your local repo.  
 
 
 ## Create new file in local repo:
   cd python_study_group  
+  git pull  
   touch example.txt :memo: **Note:** This command creates a file on Linux but do whatever works on your OS  
   git status  
 
-  Computer says:  
+  Computer will say:  
     On branch main  
     Your branch is up to date with 'origin/main'.  
 
