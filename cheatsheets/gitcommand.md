@@ -40,8 +40,9 @@ Now your account can push to a git repo on GitHub.  Use the token as your passwo
 
 
 ## Create new file in local repo:
-  create file example.txt in your OS filesystem  
-  git status
+  cd python_study_group  
+  touch example.txt :memo: **Note:** This command creates a file on Linux but do whatever works on your OS  
+  git status  
 
   Computer says:  
     On branch main  
