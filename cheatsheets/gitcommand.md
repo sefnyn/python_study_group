@@ -22,7 +22,7 @@ Now your account can push to a git repo on GitHub.  Use the token as your passwo
 
 
 ## Check status of python_study_group repository:
-  cd python_study_group
+  cd python_study_group  
   git status 
 
   Computer might say:  
