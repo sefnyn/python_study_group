@@ -26,7 +26,7 @@ Now your account can push to a git repo on GitHub.  Use the token as your passwo
   git status 
 
   Computer might say:  
-    On branch main
+    On branch main  
     Your branch is up to date with 'origin/main'.
 
     nothing to commit, working tree clean
@@ -44,12 +44,12 @@ Now your account can push to a git repo on GitHub.  Use the token as your passwo
   git status
 
   Computer says:  
-    On branch main
-    Your branch is up to date with 'origin/main'.
+    On branch main  
+    Your branch is up to date with 'origin/main'.  
 
-    Untracked files:
-    (use "git add <file>..." to include in what will be committed)
-  	example.txt
+    Untracked files:  
+    (use "git add <file>..." to include in what will be committed)  
+  	example.txt  
 
     nothing added to commit but untracked files present (use "git add" to track)
 
