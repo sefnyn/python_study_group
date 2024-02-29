@@ -21,7 +21,7 @@ Now your account can push to a git repo on GitHub.  Paste the token when asked f
   git clone https://github.com/sefnyn/python_study_group.git
 
 
-## Show status of python_study_group repository:
+## Show status of local python_study_group repo:
   cd python_study_group  
   git status 
 
@@ -57,7 +57,7 @@ Now your account can push to a git repo on GitHub.  Paste the token when asked f
 
     nothing added to commit but untracked files present (use "git add" to track)
 
-## Push new file to repo on GitHub
+## Push new file to remote repo on GitHub
 
   git pull  
   git add example.txt  
