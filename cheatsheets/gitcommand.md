@@ -1,0 +1,69 @@
+
+## Cheat sheet for git command line
+
+
+# Install git on your machine.
+
+
+# Create a personal access token:
+  Login to Github.com
+  Browse to: https://github.com/settings/tokens
+  Generate new token (classic)
+  Select scope:  repo
+  Generate token
+  Copy token
+
+Now your account can push to a git repo on GitHub.
+
+
+
+Clone a git repo:
+  git clone https://github.com/sefnyn/python_study_group.git
+
+
+Check status of python_study_group repository:
+  cd python_study_group
+  git status 
+
+  Computer says:
+    On branch main
+    Your branch is up to date with 'origin/main'.
+
+    nothing to commit, working tree clean
+
+
+Prepare to edit file in git repo:
+  git pull
+
+  Computer says:
+    Already up to date.
+
+
+Edit new file and push to git repo on GitHub:
+  git status
+
+  Computer says:
+    On branch main
+    Your branch is up to date with 'origin/main'.
+
+    Untracked files:
+    (use "git add <file>..." to include in what will be committed)
+  	gitcommand.txt
+
+    nothing added to commit but untracked files present (use "git add" to track)
+
+-----------------------
+
+  git add gitcommand.txt
+  git commit -m "Describe your changes here"
+  git push
+    <Enter GitHub username>
+    <Enter personal access token>  [This is your password]
+
+
+
+
+
+
+
+
