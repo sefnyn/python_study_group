@@ -2,7 +2,7 @@
 
 ## Usage
 Clone the repo.  
-Create a virtual environment for the code.  
+Create a virtual environment for the code. (https://docs.python.org/3/library/venv.html)  
 Install 3rd party modules:  requests and pendulum  
 
 $ ./bin/python3 forecast.py
