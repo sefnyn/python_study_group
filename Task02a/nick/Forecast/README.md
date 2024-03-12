@@ -7,19 +7,24 @@ Install 3rd party modules:  requests and pendulum
 
 $ ./bin/python3 forecast.py
 
-Please enter a location on planet Earth:   [Default: Buckingham Palace] tour eiffel  
+Global weather forecasting system  
+---------------------------------  
+Please enter a location on planet Earth:   [Default: Buckingham Palace]   
 
 Call geocoding API...  
 200  
-Call weather API with coordinates {'lon': 2.2929786, 'lat': 48.8598519}  
+Call weather API with coordinates {'lon': -0.144018, 'lat': 51.4997246}  
 200  
 
-Location is: Tour-Eiffel, Port de la Bourdonnais, 75007 Paris, France  
-Local timezone is: Europe/Paris  
+Location is: Buckingham Palace, Buckingham Gate, London, SW1A 1AA, United Kingdom  
+Local timezone is: Europe/London  
 Local time to nearest hour: Tuesday 12th of March 2024 2:00 PM  
 Forecast is:  
->  Air temperature: 9.4 degrees Celsius (48.92 degrees Fahrenheit)  
->  Relative humidity: 92.0 %  
->  Wind speed: 4.7 m/s  
->  Next hour: rain  
->  Next six hours: rain  
+>  Air temperature: 12.2 degrees Celsius (53.96 degrees Fahrenheit)  
+>  Relative humidity: 88.8 %  
+>  Wind speed: 6.7 m/s  
+>  Next hour: cloudy  
+>  Next six hours: cloudy  
+
+Fetch another forecast?  (y/n) [Default: y] n  
+Thank you for using the Global weather forecasting system!  
