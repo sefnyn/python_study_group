@@ -1,6 +1,10 @@
 # Current forecast of any location
 
 ## Usage
+Clone the repo.  
+Create a virtual environment for the code.  
+Install 3rd party modules:  requests and pendulum  
+
 $ ./bin/python3 forecast.py
 
 Please enter a location on planet Earth:   [Default: Buckingham Palace] tour eiffel  
