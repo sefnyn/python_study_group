@@ -1,6 +1,6 @@
 """
 
-A fun and interesting script that gives you current forecast / weather
+A fun and interesting script that prints current forecast / weather
 information for any location on Earth.
 
 First you enter a location or street name
@@ -42,7 +42,7 @@ my_params = {'text': location, 'apiKey': "610e4bc5f6c74b8b9376bca934724022"}
 # Convert location to lat and lon
 url_geo = "https://api.geoapify.com/v1/geocode/search?"
 url_geo = url_geo + urllib.parse.urlencode(my_params)
-print("\nCall geocoding API...", url_geo)
+print("\nCall geocoding API...")
 headers_geo = CaseInsensitiveDict()
 headers_geo["Accept"] = "application/json"
 response_geo = requests.get(url_geo, headers=headers_geo)
@@ -53,7 +53,7 @@ try:
     coordinates['lon'] = response_geo.json()['features'][0]['bbox'][0]
     coordinates['lat'] = response_geo.json()['features'][0]['bbox'][1]
 
-    print("Call weather API...", WEATHER_API)
+    print(f"Call weather API with coordinates {coordinates}")
     response_met  =  requests.get(WEATHER_API, headers=headers_met, params=coordinates)
     print(response_met.status_code)
 
