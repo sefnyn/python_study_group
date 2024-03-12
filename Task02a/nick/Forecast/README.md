@@ -14,8 +14,8 @@ Location is: Buckingham Palace, Buckingham Gate, London, SW1A 1AA, United Kingdo
 Local timezone is: Europe/London  
 Local time to nearest hour: Tuesday 12th of March 2024 12:00 PM  
 Forecast is:  
-  Air temperature: 11.4 degrees Celsius (52.52 degrees Fahrenheit)  
-  Relative humidity: 91.3 %  
-  Wind speed: 5.7 m/s  
-  Next hour: heavyrain  
-  Next six hours: rain  
+>  Air temperature: 11.4 degrees Celsius (52.52 degrees Fahrenheit)  
+>  Relative humidity: 91.3 %  
+>  Wind speed: 5.7 m/s  
+>  Next hour: heavyrain  
+>  Next six hours: rain  
