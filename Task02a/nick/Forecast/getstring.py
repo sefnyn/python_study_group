@@ -1,7 +1,7 @@
 
 
 def get(message, name="string", default=None):
-    message += ": " if default is None else " [Default: {0}]: ".format(default)
+    message += ": " if default is None else " [Default: {0}] ".format(default)
     while True:
         try:
             line = input(message)
