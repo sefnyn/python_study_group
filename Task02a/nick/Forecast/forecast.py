@@ -50,11 +50,11 @@ def get_location():
         headers_geo["Accept"] = "application/json"
         response_geo = requests.get(url_geo, headers=headers_geo)
         print(response_geo.status_code)
-        return(response_geo)
+        return response_geo, location
     except CancelledError:
         pass
-
-def get_forecast(response):
+    
+def get_forecast(response, geolocation):
     try:
         formatted_location = response.json()['features'][0]['properties']['formatted']
         geo_timezone = response.json()['features'][0]['properties']['timezone']['name']
@@ -85,13 +85,12 @@ def get_forecast(response):
         print(f"  Wind speed: {windspeed} m/s")
         print(f"  Next hour: {symbol1}")
         print(f"  Next six hours: {symbol6}")
-
     except IndexError:
-        print(f"Did not find location {location} in the Geocoding API database")
+        print(f"Did not find location {geolocation} in the Geocoding API database")
 
 while True:
-    r = get_location()
-    get_forecast(r)
+    r, loc = get_location()
+    get_forecast(r, loc)
     if (getstring.get("\nFetch another forecast?  (y/n)", default="y").lower() not in {"y", "yes"}):
         print("Thank you for using the Global weather forecasting system!")
         break
