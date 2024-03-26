@@ -2,7 +2,6 @@
 import  requests
 import json
 
-
 welcome = "\nWelcome to Search LCNAF!\n"
 welcome+= 'This program lets you search the Library of Congress Name Authority File'
 welcome+= ' using the Suggest2 API.'
@@ -14,6 +13,7 @@ print(welcome)
 query = input("\nWhat term would you like to search?\n\t")
 params = {'q':query}
 url = 'https://id.loc.gov/authorities/names/suggest2/'
+# For more on this API, see the documentation at https://id.loc.gov/techcenter/searching.html
 
 response = requests.get(url, params=params)
 results = response.json()
